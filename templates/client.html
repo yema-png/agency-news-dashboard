@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% block title %}{{ client.name }} — AndIron Group News Dashboard{% endblock %}
+
+{% block content %}
+<!-- ── Client page header ── -->
+<div class="client-hero" style="--accent:{{ client.color }}">
+  <div class="client-hero-left">
+    <div class="client-hero-top">
+      <div class="client-logo logo-lg">
+        {% if client.logo or client.domain %}
+          <img class="logo-img"
+               src="{{ client.logo or 'https://www.google.com/s2/favicons?domain=' + client.domain + '&sz=64' }}"
+               alt="{{ client.name }}"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="logo-initials" style="background:{{ client.color }}18;color:{{ client.color }};border-color:{{ client.color }}30;display:none">{{ client.initials or client.name[:2].upper() }}</div>
+        {% else %}
+          <div class="logo-initials" style="background:{{ client.color }}18;color:{{ client.color }};border-color:{{ client.color }}30">{{ client.initials or client.name[:2].upper() }}</div>
+        {% endif %}
+      </div>
+      <div>
+        <div class="client-hero-industry" style="color:{{ client.color }};background:{{ client.color }}18;border-color:{{ client.color }}35">
+          {{ client.industry }}
+        </div>
+        <h1 class="page-title">{{ client.name }}</h1>
+      </div>
+    </div><!-- /.client-hero-top -->
+    <p class="client-desc">{{ client.description }}</p>
+    <div class="client-meta-pills">
+      <span class="meta-pill">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" width="12" height="12">
+          <circle cx="7" cy="6" r="3"/><path d="M7 10c-3 0-5 1.2-5 2" stroke-linecap="round"/>
+        </svg>
+        {{ 'Global' if client.scope == 'global' else 'Australia' if client.scope == 'australia' else 'Australia &amp; Global' }}
+      </span>
+      <span class="meta-pill">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" width="12" height="12">
+          <rect x="2" y="3" width="10" height="9" rx="1.5"/>
+          <path d="M5 1v4M9 1v4M2 7h10" stroke-linecap="round"/>
+        </svg>
+        Past 7 days
+      </span>
+      <span class="meta-pill" id="articleCountPill">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" width="12" height="12">
+          <path d="M2 4h10M2 7h10M2 10h6" stroke-linecap="round"/>
+        </svg>
+        {{ articles | length }} {% if articles | length == 1 %}story{% else %}stories{% endif %}
+      </span>
+    </div>
+  </div>
+  <button class="btn-refresh-client"
+          style="border-color:{{ client.color }}50;color:{{ client.color }}"
+          onclick="refreshClient('{{ client.id }}')">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14">
+      <path d="M13 8A5 5 0 1 1 8 3" stroke-linecap="round"/>
+      <path d="M13 3v5h-5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Refresh {{ client.name }}
+  </button>
+</div>
+
+<!-- ── Article list ── -->
+{% if articles %}
+<section class="section">
+  <div class="section-header">
+    <div class="section-title-row">
+      <h2 class="section-title">Latest Stories</h2>
+    </div>
+    <span class="section-pill">{{ articles | length }} articles · scored by relevance</span>
+  </div>
+
+  <div class="articles-list">
+    {% for article in articles %}
+    <article class="article-card">
+      <!-- Score badge -->
+      <div class="article-score-col">
+        <div class="score-badge" style="color:{{ client.color }};border-color:{{ client.color }}30;background:{{ client.color }}0d">
+          <span class="score-num">{{ article.relevance_score }}</span>
+          <span class="score-den">/10</span>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="article-body">
+        <div class="article-meta-row">
+          <span class="article-source">{{ article.source.name if article.source else 'Unknown source' }}</span>
+          <span class="meta-sep">·</span>
+          <span class="article-date">
+            {{ article.formatted_date or (article.publishedAt[:10] if article.publishedAt else '') }}
+          </span>
+        </div>
+
+        <h3 class="article-headline">
+          <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">
+            {{ article.title }}
+            <svg class="ext-icon" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" width="10" height="10">
+              <path d="M3 1h6v6M9 1 4 6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </h3>
+
+        {% if article.summary %}
+        <p class="article-summary">{{ article.summary }}</p>
+        {% endif %}
+
+        {% if article.meeting_angle %}
+        <div class="article-angle" style="border-left-color:{{ client.color }}">
+          <div class="angle-inner">
+            <span class="angle-label">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" width="12" height="12">
+                <circle cx="7" cy="7" r="5"/>
+                <path d="M7 5v3M7 9.5v.5" stroke-linecap="round"/>
+              </svg>
+              WIP meeting angle
+            </span>
+            <p class="angle-text">{{ article.meeting_angle }}</p>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% else %}
+<div class="empty-state">
+  <div class="empty-icon-wrap" style="color:{{ client.color }}">
+    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" width="52" height="52">
+      <rect x="8" y="12" width="32" height="28" rx="3"/>
+      <path d="M16 8h16M24 8v4M16 22h16M16 28h10" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <h3>No stories yet for {{ client.name }}</h3>
+  <p>Click the button below to fetch and analyse this week's news.</p>
+  <button class="btn-primary" style="--btn-color:{{ client.color }}" onclick="refreshClient('{{ client.id }}')">
+    Fetch News for {{ client.name }}
+  </button>
+</div>
+{% endif %}
+{% endblock %}

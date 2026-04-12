@@ -1,0 +1,265 @@
+{
+  "agency": {
+    "name": "AndIron Group",
+    "tagline": "Weekly News Dashboard",
+    "location": "Australia"
+  },
+  "default_settings": {
+    "days_back": 7,
+    "max_articles_per_client": 40,
+    "min_relevance_score": 5
+  },
+  "ai_model": "claude-haiku-4-5-20251001",
+
+  "clients": [
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender",
+      "industry": "Cybersecurity",
+      "description": "Global enterprise cybersecurity software company offering endpoint protection, threat intelligence, and EDR solutions",
+      "scope": "global",
+      "color": "#a78bfa",
+      "domain": "bitdefender.com",
+      "initials": "BD",
+      "keywords": [
+        "Bitdefender",
+        "cybersecurity",
+        "endpoint security",
+        "ransomware",
+        "malware",
+        "data breach",
+        "cyber threat",
+        "EDR",
+        "threat intelligence",
+        "enterprise security",
+        "zero trust",
+        "cloud security"
+      ],
+      "topics": [
+        "cybersecurity threats and incidents",
+        "enterprise security software",
+        "ransomware attacks",
+        "data breaches",
+        "threat intelligence",
+        "endpoint detection and response",
+        "cloud security",
+        "zero trust architecture",
+        "cybercrime",
+        "security vulnerabilities",
+        "Australian Cyber Security Centre"
+      ],
+      "exclude_topics": [
+        "home consumer antivirus product reviews",
+        "personal finance",
+        "gaming"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "darkreading.com",
+        "securityweek.com",
+        "bleepingcomputer.com",
+        "infosecurity-magazine.com",
+        "theregister.com"
+      ]
+    },
+
+    {
+      "id": "sunwiz",
+      "name": "SunWiz",
+      "industry": "Clean Technology & Renewables",
+      "description": "Australia's leading solar and battery market intelligence company, providing data, analytics and consulting to the energy sector",
+      "scope": "australia",
+      "color": "#34d399",
+      "domain": "sunwiz.com.au",
+      "initials": "SW",
+      "keywords": [
+        "solar energy Australia",
+        "battery storage Australia",
+        "rooftop solar",
+        "solar market Australia",
+        "AEMO",
+        "energy storage",
+        "solar installation",
+        "renewable energy policy",
+        "virtual power plant",
+        "solar feed-in tariff"
+      ],
+      "topics": [
+        "Australian solar market statistics",
+        "battery storage market growth",
+        "renewable energy policy and regulation",
+        "grid-scale and rooftop solar",
+        "virtual power plants",
+        "energy market reform",
+        "clean energy transition Australia",
+        "solar financing and investment",
+        "AEMO grid updates"
+      ],
+      "exclude_topics": [
+        "international solar markets",
+        "oil and gas",
+        "nuclear energy",
+        "coal"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "reneweconomy.com.au",
+        "solarchoice.net.au",
+        "pv-magazine-australia.com",
+        "abc.net.au",
+        "afr.com"
+      ]
+    },
+
+    {
+      "id": "sensen",
+      "name": "SenSen Networks",
+      "industry": "AI & Smart City Technology",
+      "description": "ASX-listed AI-powered video analytics company delivering smart city, traffic management, and enterprise AI solutions in Australia and globally",
+      "scope": "australia_global",
+      "color": "#60a5fa",
+      "domain": "sensen.ai",
+      "initials": "SN",
+      "keywords": [
+        "SenSen Networks",
+        "AI video analytics",
+        "smart city technology",
+        "computer vision",
+        "AI traffic management",
+        "intelligent transport",
+        "smart parking",
+        "video surveillance AI",
+        "city AI",
+        "smart infrastructure Australia"
+      ],
+      "topics": [
+        "AI video analytics deployments",
+        "smart city technology and investment",
+        "traffic management systems",
+        "computer vision applications",
+        "ASX technology companies",
+        "AI in government and infrastructure",
+        "smart transport initiatives",
+        "city technology procurement",
+        "Australian AI policy"
+      ],
+      "exclude_topics": [
+        "consumer home security cameras",
+        "personal wearables",
+        "entertainment AI"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "itnews.com.au",
+        "innovationaus.com",
+        "afr.com",
+        "zdnet.com",
+        "techcrunch.com"
+      ]
+    },
+
+    {
+      "id": "sunshine_hydro",
+      "name": "Sunshine Hydro",
+      "industry": "Green Hydrogen & Clean Energy",
+      "description": "Australian green hydrogen producer developing renewable hydrogen projects in Queensland, targeting domestic use and export markets. Also tracks pumped hydro, long-duration energy storage, grid firming, and Australia's broader clean energy policy landscape.",
+      "scope": "australia",
+      "color": "#22d3ee",
+      "domain": "sunshinehydro.com.au",
+      "initials": "SH",
+      "keywords": [
+        "green hydrogen Australia",
+        "pumped hydro Australia",
+        "long duration energy storage",
+        "hydrogen energy",
+        "grid firming Australia",
+        "renewable energy storage",
+        "hydrogen infrastructure",
+        "energy policy Australia",
+        "clean energy project approval",
+        "Hydrogen Headstart",
+        "Capacity Investment Scheme",
+        "electrolysis Australia"
+      ],
+      "topics": [
+        "green hydrogen production and projects",
+        "pumped hydro development Australia",
+        "long-duration energy storage",
+        "grid firming and dispatchable clean energy",
+        "hydrogen infrastructure and pipelines",
+        "Australian energy policy and legislation",
+        "renewable energy project approvals and investment",
+        "Capacity Investment Scheme and government tenders",
+        "hydrogen export strategy",
+        "electrolyser technology",
+        "Queensland energy and hydrogen investment",
+        "hydrogen to Asia",
+        "federal and state clean energy funding",
+        "AEMO and grid planning",
+        "energy storage market in Australia"
+      ],
+      "relevance_context": "Score any story about the Australian clean energy transition, energy storage, grid firming, pumped hydro, long-duration storage, energy policy, or renewable project approvals as highly relevant (7–9) even if Sunshine Hydro is not named — these stories define the market Sunshine Hydro operates in. Reserve 10 for stories that directly name or involve Sunshine Hydro.",
+      "exclude_topics": [
+        "grey hydrogen",
+        "blue hydrogen",
+        "fossil fuel derived hydrogen",
+        "natural gas"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "reneweconomy.com.au",
+        "abc.net.au",
+        "afr.com",
+        "theaustralian.com.au"
+      ]
+    },
+
+    {
+      "id": "discovery_consulting",
+      "name": "Discovery Consulting",
+      "industry": "Business Advisory",
+      "description": "Australian management consulting and business advisory firm helping organisations navigate strategy, transformation, and growth",
+      "scope": "australia",
+      "color": "#f59e0b",
+      "domain": "discoveryconsulting.com.au",
+      "initials": "DC",
+      "keywords": [
+        "management consulting Australia",
+        "business advisory Australia",
+        "digital transformation",
+        "Australian economy",
+        "business strategy",
+        "SME Australia",
+        "corporate advisory",
+        "workforce transformation",
+        "business growth Australia",
+        "mergers acquisitions Australia"
+      ],
+      "topics": [
+        "Australian business landscape",
+        "management consulting trends",
+        "digital transformation initiatives",
+        "economic outlook Australia",
+        "SME sector news",
+        "corporate strategy",
+        "talent and workforce",
+        "regulatory environment Australia",
+        "business investment and M&A"
+      ],
+      "exclude_topics": [
+        "retail consumer news",
+        "entertainment",
+        "sports",
+        "weather"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "afr.com",
+        "theaustralian.com.au",
+        "smh.com.au",
+        "businessinsider.com.au",
+        "abc.net.au"
+      ]
+    }
+  ]
+}

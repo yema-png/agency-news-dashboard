@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}AndIron Group — News Dashboard{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+<div class="layout">
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-mark">A</div>
+      <div class="brand-words">
+        <span class="brand-name">AndIron</span>
+        <span class="brand-group">Group</span>
+      </div>
+    </div>
+    <div class="sidebar-label">News Dashboard</div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Pages</div>
+      <a href="{{ url_for('overview') }}"
+         class="nav-link {% if request.endpoint == 'overview' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6">
+          <rect x="3" y="3" width="6" height="6" rx="1.5"/>
+          <rect x="11" y="3" width="6" height="6" rx="1.5"/>
+          <rect x="3" y="11" width="6" height="6" rx="1.5"/>
+          <rect x="11" y="11" width="6" height="6" rx="1.5"/>
+        </svg>
+        Overview
+      </a>
+
+      <div class="nav-group-label" style="margin-top:1rem">Clients</div>
+      {% for client in clients %}
+      <a href="{{ url_for('client_page', client_id=client.id) }}"
+         class="nav-link {% if request.endpoint == 'client_page' and request.view_args.client_id == client.id %}active{% endif %}">
+        {% if client.logo or client.domain %}
+          <img class="nav-logo"
+               src="{{ client.logo or 'https://www.google.com/s2/favicons?domain=' + client.domain + '&sz=64' }}"
+               alt="{{ client.name }}"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="nav-logo-fallback" style="background:{{ client.color }}18;color:{{ client.color }};border-color:{{ client.color }}30;display:none">{{ client.initials or client.name[:2].upper() }}</span>
+        {% else %}
+          <span class="nav-logo-fallback" style="background:{{ client.color }}18;color:{{ client.color }};border-color:{{ client.color }}30">{{ client.initials or client.name[:2].upper() }}</span>
+        {% endif %}
+        <span class="nav-link-text">{{ client.name }}</span>
+        <span class="nav-badge" style="color:{{ client.color }};background:{{ client.color }}15">
+          {{ client.scope | replace('australia_global','AU+GL') | replace('australia','AU') | replace('global','GL') }}
+        </span>
+      </a>
+      {% endfor %}
+    </nav>
+
+    <div class="sidebar-footer">
+      {% if last_refresh %}
+      <div class="last-refresh-row">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="12" height="12">
+          <path d="M13 8A5 5 0 1 1 8 3" stroke-linecap="round"/>
+          <path d="M13 3v5h-5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>{{ last_refresh }}</span>
+      </div>
+      {% endif %}
+      <button class="btn-refresh-all" id="refreshAllBtn" onclick="refreshAll()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14">
+          <path d="M13 8A5 5 0 1 1 8 3" stroke-linecap="round"/>
+          <path d="M13 3v5h-5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Refresh All
+      </button>
+    </div>
+  </aside>
+
+  <!-- ── Main ── -->
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+</div>
+
+<!-- Loading overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-card">
+    <div class="loading-spinner"></div>
+    <p class="loading-title">Fetching &amp; analysing news…</p>
+    <p class="loading-sub" id="loadingMsg">This takes 1–2 minutes</p>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
