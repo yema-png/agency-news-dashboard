@@ -12,46 +12,52 @@
   "ai_model": "claude-haiku-4-5-20251001",
 
   "clients": [
+
     {
       "id": "bitdefender",
       "name": "Bitdefender",
       "industry": "Cybersecurity",
-      "description": "Global enterprise cybersecurity software company offering endpoint protection, threat intelligence, and EDR solutions",
+      "description": "Global enterprise cybersecurity company. AndIron manages their Australian and APAC communications, covering enterprise security, compliance, and threat intelligence across Australia, Singapore, Malaysia, Indonesia, and Hong Kong.",
+      "context": "Bitdefender is positioning itself as the enterprise cybersecurity partner of choice across APAC. Key comms angles include: APAC regulatory changes (especially Hong Kong's Cybersecurity Ordinance / Critical Infrastructure Law 2026), the IT skills and burnout crisis making outsourced security more relevant, AI-powered threats requiring AI-powered defences, and compliance as a business enabler not just a cost. News about APAC cyber regulation, critical infrastructure attacks, ransomware impacting regional enterprises, and cybersecurity skills shortages are all high-priority. AndIron pitches Bitdefender spokespeople as expert commentators on these trends to Australian and APAC trade and business media.",
       "scope": "global",
       "color": "#a78bfa",
       "domain": "bitdefender.com",
       "initials": "BD",
       "keywords": [
         "Bitdefender",
-        "cybersecurity",
-        "endpoint security",
+        "cybersecurity APAC",
+        "enterprise security Australia",
         "ransomware",
-        "malware",
-        "data breach",
-        "cyber threat",
-        "EDR",
-        "threat intelligence",
-        "enterprise security",
-        "zero trust",
-        "cloud security"
+        "cybersecurity regulation",
+        "AI cyber threats",
+        "data breach Australia",
+        "critical infrastructure security",
+        "cybersecurity skills shortage",
+        "Hong Kong cybersecurity law",
+        "EDR endpoint detection",
+        "cyber compliance"
       ],
       "topics": [
-        "cybersecurity threats and incidents",
-        "enterprise security software",
-        "ransomware attacks",
-        "data breaches",
-        "threat intelligence",
-        "endpoint detection and response",
-        "cloud security",
-        "zero trust architecture",
-        "cybercrime",
-        "security vulnerabilities",
-        "Australian Cyber Security Centre"
+        "APAC cybersecurity regulation and legislation",
+        "Hong Kong Critical Infrastructure Cybersecurity Ordinance 2026",
+        "enterprise security software and services",
+        "ransomware attacks on Australian and APAC organisations",
+        "AI-powered cyber threats and defences",
+        "data breaches affecting Australian businesses",
+        "cybersecurity skills shortage and IT burnout",
+        "critical infrastructure protection",
+        "threat intelligence and EDR",
+        "cloud security and zero trust",
+        "compliance-driven security investment",
+        "Australian Cyber Security Centre advisories",
+        "Singapore Malaysia Indonesia cybersecurity news",
+        "cybercrime and nation-state threats"
       ],
+      "relevance_context": "Score stories about APAC cyber regulation (especially HK, SG, AU), enterprise security incidents, AI threats, and the cybersecurity skills gap as 7–9 even without Bitdefender being named — these are their core narrative pillars. Reserve 9–10 for stories naming Bitdefender directly or major incidents that are perfect for spokesperson commentary.",
       "exclude_topics": [
         "home consumer antivirus product reviews",
         "personal finance",
-        "gaming"
+        "gaming security"
       ],
       "exclude_sources": [],
       "priority_sources": [
@@ -59,7 +65,9 @@
         "securityweek.com",
         "bleepingcomputer.com",
         "infosecurity-magazine.com",
-        "theregister.com"
+        "theregister.com",
+        "itnews.com.au",
+        "zdnet.com"
       ]
     },
 
@@ -67,7 +75,8 @@
       "id": "sunwiz",
       "name": "SunWiz",
       "industry": "Clean Technology & Renewables",
-      "description": "Australia's leading solar and battery market intelligence company, providing data, analytics and consulting to the energy sector",
+      "description": "Australia's leading solar and battery market intelligence company, providing installer data, storage rankings, and market reports to the energy sector. Recently expanded to the UK solar market.",
+      "context": "SunWiz is the authoritative data source for the Australian solar and battery storage industry, founded by Warwick Johnston. They publish widely cited market reports including installer rankings and battery storage leaderboards. In 2024–2025 they expanded into the UK market. Their data is regularly referenced by media, government, and industry bodies. News about solar installation volumes, battery storage rankings, energy market policy, and UK solar market developments is directly relevant to their research pipeline and media positioning. AEMO grid decisions and feed-in tariff changes affect their key clients. Stories quoting or citing SunWiz data are highest priority.",
       "scope": "australia",
       "color": "#34d399",
       "domain": "sunwiz.com.au",
@@ -75,31 +84,36 @@
       "keywords": [
         "solar energy Australia",
         "battery storage Australia",
-        "rooftop solar",
-        "solar market Australia",
-        "AEMO",
-        "energy storage",
-        "solar installation",
-        "renewable energy policy",
-        "virtual power plant",
-        "solar feed-in tariff"
+        "rooftop solar installation",
+        "solar market data",
+        "AEMO solar",
+        "energy storage rankings",
+        "solar feed-in tariff",
+        "UK solar market",
+        "virtual power plant Australia",
+        "solar installer",
+        "battery storage rankings",
+        "residential solar Australia"
       ],
       "topics": [
-        "Australian solar market statistics",
-        "battery storage market growth",
-        "renewable energy policy and regulation",
-        "grid-scale and rooftop solar",
-        "virtual power plants",
-        "energy market reform",
-        "clean energy transition Australia",
-        "solar financing and investment",
-        "AEMO grid updates"
+        "Australian solar installation volumes and statistics",
+        "battery storage market rankings and growth",
+        "rooftop solar policy and feed-in tariffs",
+        "AEMO grid decisions affecting solar",
+        "virtual power plants and aggregated storage",
+        "solar and battery market reports and data",
+        "UK solar market developments",
+        "energy storage technology and costs",
+        "solar installer industry news",
+        "clean energy transition policy Australia",
+        "solar financing and consumer uptake",
+        "grid integration of distributed energy resources"
       ],
       "exclude_topics": [
-        "international solar markets",
         "oil and gas",
         "nuclear energy",
-        "coal"
+        "coal",
+        "large-scale wind (unless connected to storage)"
       ],
       "exclude_sources": [],
       "priority_sources": [
@@ -107,7 +121,8 @@
         "solarchoice.net.au",
         "pv-magazine-australia.com",
         "abc.net.au",
-        "afr.com"
+        "afr.com",
+        "theaustralian.com.au"
       ]
     },
 
@@ -115,38 +130,46 @@
       "id": "sensen",
       "name": "SenSen Networks",
       "industry": "AI & Smart City Technology",
-      "description": "ASX-listed AI-powered video analytics company delivering smart city, traffic management, and enterprise AI solutions in Australia and globally",
+      "description": "ASX-listed AI-powered video analytics company (ASX: SNS). Products cover intelligent video analytics for public safety, smart cities, parking management, and school zone safety. Key markets include Australian councils, US cities, and international smart city programs.",
+      "context": "SenSen Networks (CEO: Subhash Challa) builds AI video analytics software for governments and enterprises. Key products include parking management AI, school zone safety systems (used by Australian councils), and public safety analytics. They are expanding in the US smart cities market and have a relationship with Nathan Rogers in business development. Their ASX listing (SNS) means investor and tech media coverage matters alongside government/council procurement news. Stories about AI in public spaces, council technology procurement, smart city grants, US city contracts, parking innovation, and school safety technology are directly relevant. Any AI regulation that could affect public-space deployment is also important.",
       "scope": "australia_global",
       "color": "#60a5fa",
       "domain": "sensen.ai",
       "initials": "SN",
       "keywords": [
         "SenSen Networks",
+        "smart city Australia",
         "AI video analytics",
-        "smart city technology",
-        "computer vision",
-        "AI traffic management",
-        "intelligent transport",
-        "smart parking",
-        "video surveillance AI",
-        "city AI",
-        "smart infrastructure Australia"
+        "computer vision government",
+        "parking technology AI",
+        "school zone safety technology",
+        "public safety AI",
+        "Australian council technology",
+        "US smart cities",
+        "ASX technology company",
+        "intelligent transport systems",
+        "AI surveillance public space"
       ],
       "topics": [
-        "AI video analytics deployments",
-        "smart city technology and investment",
-        "traffic management systems",
-        "computer vision applications",
-        "ASX technology companies",
-        "AI in government and infrastructure",
-        "smart transport initiatives",
-        "city technology procurement",
-        "Australian AI policy"
+        "smart city technology procurement and deployment",
+        "AI video analytics for public safety",
+        "parking management technology and innovation",
+        "school zone and road safety technology",
+        "Australian council and local government technology",
+        "US smart city programs and contracts",
+        "ASX small-cap technology company news",
+        "computer vision and AI in public spaces",
+        "AI regulation and public-space surveillance policy",
+        "intelligent transport and traffic systems",
+        "government AI adoption and digital infrastructure",
+        "public safety technology funding and grants"
       ],
+      "relevance_context": "Score stories about council tech procurement, smart city investment, AI in public spaces, school safety, and parking innovation as 7–9 even without SenSen named — these are their target markets. Score direct SenSen mentions or major smart city contract wins at 9–10.",
       "exclude_topics": [
         "consumer home security cameras",
         "personal wearables",
-        "entertainment AI"
+        "entertainment or retail AI",
+        "facial recognition controversy unrelated to government procurement"
       ],
       "exclude_sources": [],
       "priority_sources": [
@@ -154,112 +177,127 @@
         "innovationaus.com",
         "afr.com",
         "zdnet.com",
-        "techcrunch.com"
+        "smartcitiesdive.com",
+        "govtech.com"
       ]
     },
 
     {
       "id": "sunshine_hydro",
       "name": "Sunshine Hydro",
-      "industry": "Green Hydrogen & Clean Energy",
-      "description": "Australian green hydrogen producer developing renewable hydrogen projects in Queensland, targeting domestic use and export markets. Also tracks pumped hydro, long-duration energy storage, grid firming, and Australia's broader clean energy policy landscape.",
+      "industry": "Long-Duration Energy Storage & Green Hydrogen",
+      "description": "Queensland-based long-duration energy storage company developing the Djandori Pumped Hydro project (1,400MW, Gladstone QLD) using their Superhybrid™ model combining pumped hydro, green hydrogen, and green fuels. Partners include GreenLink Australia.",
+      "context": "Sunshine Hydro's flagship project is Djandori Pumped Hydro in Gladstone, Queensland — a 1,400MW long-duration storage facility designed to support Queensland's coal transition and provide 24/7 carbon-free dispatchable energy. Their Superhybrid™ model integrates pumped hydro with green hydrogen and green fuels production, making them relevant across multiple clean energy sectors. Partners include GreenLink Australia (sustainable rail and transport). Key policy milestones include EPBC approval processes, Capacity Investment Scheme rounds, and IHA (International Hydropower Association) engagement. Gladstone is a significant industrial hub and coal transition focus area. Stories about pumped hydro projects, long-duration storage investment, Queensland energy transition, Capacity Investment Scheme announcements, coal power station retirements, and green hydrogen project milestones are all high priority.",
       "scope": "australia",
       "color": "#22d3ee",
       "domain": "sunshinehydro.com.au",
       "initials": "SH",
       "keywords": [
-        "green hydrogen Australia",
         "pumped hydro Australia",
         "long duration energy storage",
-        "hydrogen energy",
-        "grid firming Australia",
-        "renewable energy storage",
-        "hydrogen infrastructure",
-        "energy policy Australia",
-        "clean energy project approval",
-        "Hydrogen Headstart",
+        "Djandori",
+        "Gladstone energy",
         "Capacity Investment Scheme",
-        "electrolysis Australia"
+        "Queensland energy transition",
+        "green hydrogen Queensland",
+        "Superhybrid energy",
+        "EPBC renewable approval",
+        "coal transition Queensland",
+        "dispatchable clean energy",
+        "AEMO storage tender"
       ],
       "topics": [
-        "green hydrogen production and projects",
-        "pumped hydro development Australia",
-        "long-duration energy storage",
-        "grid firming and dispatchable clean energy",
-        "hydrogen infrastructure and pipelines",
-        "Australian energy policy and legislation",
-        "renewable energy project approvals and investment",
-        "Capacity Investment Scheme and government tenders",
-        "hydrogen export strategy",
-        "electrolyser technology",
-        "Queensland energy and hydrogen investment",
-        "hydrogen to Asia",
-        "federal and state clean energy funding",
-        "AEMO and grid planning",
-        "energy storage market in Australia"
+        "pumped hydro development and investment Australia",
+        "long-duration energy storage projects and policy",
+        "Capacity Investment Scheme rounds and announcements",
+        "Queensland energy transition and coal plant retirements",
+        "Gladstone industrial hub and clean energy projects",
+        "green hydrogen production and infrastructure",
+        "EPBC approvals for renewable energy projects",
+        "AEMO grid reliability and storage tenders",
+        "dispatchable clean energy and grid firming",
+        "International Hydropower Association (IHA) news",
+        "green fuels and sustainable transport",
+        "24/7 carbon-free energy investment",
+        "federal and Queensland clean energy funding",
+        "GreenLink Australia and sustainable rail"
       ],
-      "relevance_context": "Score any story about the Australian clean energy transition, energy storage, grid firming, pumped hydro, long-duration storage, energy policy, or renewable project approvals as highly relevant (7–9) even if Sunshine Hydro is not named — these stories define the market Sunshine Hydro operates in. Reserve 10 for stories that directly name or involve Sunshine Hydro.",
+      "relevance_context": "Score stories about pumped hydro, long-duration storage, Queensland energy policy, coal transition, Capacity Investment Scheme, and AEMO storage planning as 7–9 even without Sunshine Hydro named — these define their operating environment. Score Djandori, Superhybrid, or Sunshine Hydro direct mentions at 10.",
       "exclude_topics": [
         "grey hydrogen",
         "blue hydrogen",
         "fossil fuel derived hydrogen",
-        "natural gas"
+        "natural gas",
+        "short-duration battery storage only"
       ],
       "exclude_sources": [],
       "priority_sources": [
         "reneweconomy.com.au",
         "abc.net.au",
         "afr.com",
-        "theaustralian.com.au"
+        "theaustralian.com.au",
+        "queenslandcountrylife.com.au"
       ]
     },
 
     {
       "id": "discovery_consulting",
       "name": "Discovery Consulting",
-      "industry": "Business Advisory",
-      "description": "Australian management consulting and business advisory firm helping organisations navigate strategy, transformation, and growth",
+      "industry": "SAP Consulting & HR Technology",
+      "description": "Australian SAP implementation partner specialising in SuccessFactors (HR) and Finance modules. Key verticals include education (Catholic schools), construction, hospitality, and government. Creator of UnifiedLeave — a SAP SuccessFactors extension for hospitality leave management. SAP Best Tech Awards 2025 finalist (Human Capital Management).",
+      "context": "Discovery Consulting is a specialist SAP partner, not a general management consultancy. Their sweet spot is SAP SuccessFactors implementations for mid-market Australian organisations in compliance-heavy sectors: Catholic and independent schools, construction companies, hospitality groups, and government. Their flagship product 'UnifiedLeave' extends SAP SuccessFactors to handle complex hospitality leave management rules. They were a finalist in the SAP Best Tech Awards 2025 in the Human Capital Management category. News about SAP product releases, SuccessFactors updates, HR technology trends, workforce management in hospitality or education, and ERP adoption in Australian construction or government is directly relevant. Australian education sector workforce news (especially Catholic schools system) and construction industry compliance (e.g. Modern Slavery Act, Fair Work) also matter as lead generation context.",
       "scope": "australia",
       "color": "#f59e0b",
       "domain": "discoveryconsulting.com.au",
       "initials": "DC",
       "keywords": [
-        "management consulting Australia",
-        "business advisory Australia",
-        "digital transformation",
-        "Australian economy",
-        "business strategy",
-        "SME Australia",
-        "corporate advisory",
-        "workforce transformation",
-        "business growth Australia",
-        "mergers acquisitions Australia"
+        "SAP SuccessFactors",
+        "SAP implementation Australia",
+        "HR technology Australia",
+        "workforce management software",
+        "ERP Australia",
+        "Catholic schools HR",
+        "construction workforce compliance",
+        "hospitality workforce management",
+        "SAP Finance module",
+        "human capital management",
+        "leave management software",
+        "payroll compliance Australia"
       ],
       "topics": [
-        "Australian business landscape",
-        "management consulting trends",
-        "digital transformation initiatives",
-        "economic outlook Australia",
-        "SME sector news",
-        "corporate strategy",
-        "talent and workforce",
-        "regulatory environment Australia",
-        "business investment and M&A"
+        "SAP SuccessFactors product updates and releases",
+        "SAP implementation and ERP adoption in Australia",
+        "HR technology trends and workforce management",
+        "human capital management software",
+        "Australian education sector workforce and HR",
+        "Catholic and independent schools administration",
+        "construction industry compliance and workforce",
+        "hospitality workforce and leave management",
+        "government HR and digital transformation",
+        "payroll and compliance software Australia",
+        "SAP partner ecosystem and awards",
+        "ERP modernisation in mid-market organisations",
+        "Fair Work and Modern Slavery Act compliance",
+        "digital transformation in compliance-heavy industries"
       ],
+      "relevance_context": "Score stories about SAP/SuccessFactors updates, HR tech, ERP trends, and workforce management in education, construction, hospitality or government as 7–9 even without Discovery named. Score SAP Best Tech Awards, SuccessFactors product news, or direct Discovery Consulting mentions at 9–10.",
       "exclude_topics": [
         "retail consumer news",
         "entertainment",
         "sports",
-        "weather"
+        "weather",
+        "general management consulting unrelated to SAP or HR tech"
       ],
       "exclude_sources": [],
       "priority_sources": [
         "afr.com",
+        "itnews.com.au",
         "theaustralian.com.au",
-        "smh.com.au",
-        "businessinsider.com.au",
-        "abc.net.au"
+        "hrtechnologynews.com",
+        "sapinsider.org",
+        "zdnet.com.au"
       ]
     }
+
   ]
 }

@@ -14,8 +14,8 @@
         "publishedAt": "2026-04-06T10:07:00Z",
         "content": "Threat actors associated with Qilin and Warlock ransomware operations have been observed using the bring your own vulnerable driver (BYOVD) technique to silence security tools running on compromised … [+4397 chars]",
         "relevance_score": 9,
-        "summary": "Qilin and Warlock ransomware operators using BYOVD technique to disable 300+ EDR tools, directly undermining endpoint detection solutions.",
-        "meeting_angle": "Priority brief: This directly impacts Bitdefender's EDR positioning. Develop rapid response statement on Bitdefender's resilience against BYOVD attacks and prepare for media inquiry about EDR tool vulnerabilities.",
+        "summary": "Qilin and Warlock ransomware operators exploit vulnerable drivers (BYOVD technique) to disable 300+ EDR tools on compromised systems.",
+        "meeting_angle": "Critical threat to position Bitdefender EDR capabilities against; pitch 'Bitdefender response' article to security media highlighting how the platform detects and prevents BYOVD exploitation; brief client on reputational risk and competitive differentiation.",
         "formatted_date": "6 April 2026"
       },
       {
@@ -31,9 +31,43 @@
         "publishedAt": "2026-04-08T04:23:00Z",
         "content": "Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecur… [+6095 chars]",
         "relevance_score": 9,
-        "summary": "Iran-affiliated cyber actors targeting internet-exposed operational technology and PLCs across U.S. critical infrastructure, per CISA warnings.",
-        "meeting_angle": "Priority pitch: Offer Bitdefender perspective on critical infrastructure threat detection and OT security to enterprise/infrastructure-focused media; brief client on reputational opportunity around state-sponsored OT targeting.",
+        "summary": "Iran-affiliated cyber actors target internet-exposed operational technology devices (PLCs) across U.S. critical infrastructure.",
+        "meeting_angle": "Critical angle for positioning Bitdefender OT/ICS security capabilities; pitch expert commentary on critical infrastructure defense to specialized media; proactively brief client on nation-state threat to operational technology; highlight zero-trust architecture relevance.",
         "formatted_date": "8 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Internet"
+        },
+        "author": "info@thehackernews.com (The Hacker News)",
+        "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+        "description": "Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that beg…",
+        "url": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2eFUAGb2m5vs6mOwArunSX0lzBpR8Ag24yQhUtaYxrcHx2V46YcocY9oei-HH89QSB-HTxXta3bLH70_n6zMCRD949ttVsKlt4WnzSZ0rl1v4Suj3A7xftqjQSEXDq_cfLCIcMuENqoFeD9zBW0qZXr1owIEQEqzSNkaKfHFsGF35-lseSZbc0MGLRRWu/s1700-e365/drift-hack.jpg",
+        "publishedAt": "2026-04-05T18:25:00Z",
+        "content": "Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken … [+11316 chars]",
+        "relevance_score": 9,
+        "summary": "DPRK-attributed six-month social engineering campaign successfully compromised cryptocurrency exchange Drift, stealing $285 million through sustained targeted tactics.",
+        "meeting_angle": "Proactively brief Bitdefender on reputational risk if client's solutions were absent from Drift's security stack; develop case study angle on detecting prolonged social engineering campaigns; pitch expert commentary on APT tradecraft to business/tech media.",
+        "formatted_date": "5 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Vaultproof.dev"
+        },
+        "author": null,
+        "title": "How the Trivy supply chain attack harvested credentials from secrets managers",
+        "description": "Trivy v0.69.4 silently harvested credentials from thousands of CI/CD pipelines. The secrets managers didn't help. Here's why — and what does.",
+        "url": "https://vaultproof.dev/blog/trivy-supply-chain-attack",
+        "urlToImage": "https://vaultproof.dev/ogimage.png",
+        "publishedAt": "2026-04-09T22:10:53Z",
+        "content": "The anatomy of the attack\r\nOn March 19, 2026, Aqua Security's Trivy one of the most widely used vulnerability scanners in the world was compromised. Attackers injected credential-harvesting logic dir… [+3492 chars]",
+        "relevance_score": 9,
+        "summary": "Trivy supply chain attack silently harvested credentials from CI/CD pipelines and secrets managers, bypassing conventional credential protection mechanisms.",
+        "meeting_angle": "Pitch Bitdefender's EDR and behavior-based detection as critical for identifying supply chain compromise and secrets theft in development pipelines; develop expert commentary on zero-trust application to DevOps/CI-CD environments; brief client on emerging threat narrative.",
+        "formatted_date": "9 April 2026"
       },
       {
         "source": {
@@ -48,8 +82,8 @@
         "publishedAt": "2026-04-07T21:20:00Z",
         "content": "<ul><li>Storm enables session hijacking that bypasses passwords and multi-factor authentication</li><li>Attackers can restore stolen sessions remotely without triggering standard security alerts</li>… [+3780 chars]",
         "relevance_score": 9,
-        "summary": "Storm infostealer malware-as-a-service ($900/month) bypasses MFA by stealing session cookies, enabling persistent enterprise account hijacking at scale.",
-        "meeting_angle": "High-priority opportunity to position Bitdefender's endpoint detection and response capabilities against session-hijacking threats; pitch expert analysis on MFA limitations and layered defence strategies to enterprise security outlets.",
+        "summary": "Storm infostealer malware-as-a-service ($900/month) harvests session cookies to bypass MFA and enable persistent enterprise account hijacking globally.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on session cookie theft, MFA bypass techniques, and advanced endpoint detection; pitch thought leadership piece on emerging MaaS threat models to enterprise security media.",
         "formatted_date": "7 April 2026"
       },
       {
@@ -66,25 +100,25 @@
         "content": "Hackers linked to Russia’s military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today… [+4489 chars]",
         "relevance_score": 9,
         "summary": "Russian military intelligence units exploit known router vulnerabilities to mass harvest Microsoft Office authentication tokens from enterprise users.",
-        "meeting_angle": "Critical angle: position Bitdefender as expert on supply-chain and IoT attack vectors; proactively brief enterprise clients on this threat; pitch to security media on token-harvesting mitigation strategies.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on router-based attacks and token harvesting; pitch proactive advisory to enterprise customers on network perimeter security and credential protection strategies.",
         "formatted_date": "7 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Securityaffairs.com"
+          "name": "Theregister.com"
         },
-        "author": "Pierluigi Paganini",
-        "title": "BKA unmasks two REvil Ransomware operators behind 130+ German attacks",
-        "description": "German police BKA identified two key REvil ransomware members, linking them to over 130 attacks in Germany. Germany’s Federal Criminal Police (BKA) has identified two key figures behind the REvil ransomware group, linking them to more than 130 attacks in the …",
-        "url": "https://securityaffairs.com/190401/cyber-crime/bka-unmasks-two-revil-ransomware-operators-behind-130-german-attacks.html",
-        "urlToImage": "https://securityaffairs.com/wp-content/uploads/2026/04/image-7.png",
-        "publishedAt": "2026-04-06T14:48:09Z",
-        "content": "BKA unmasks two REvil Ransomware operators behind 130+ German attacks\r\nGermanys Federal Criminal Police (BKA) has identified two key figures behind the REvil ransomware group, linking them to more th… [+6711 chars]",
+        "author": "Connor Jones",
+        "title": "Russia's Fancy Bear still attacking routers to boost fake sites, NCSC warns",
+        "description": "200 orgs and 5,000 devices compromised so far in Vlad's latest intelligence grab, Microsoft reckons\nThe UK's National Cyber Security Centre (NCSC) has issued a fresh warning about Russia's ongoing targeting of routers to steal passwords and other secrets.…",
+        "url": "https://www.theregister.com/2026/04/07/russia_fancy_bear_ncsc_router_attack/",
+        "urlToImage": "https://regmedia.co.uk/2024/04/22/bear_shutterstock.jpg",
+        "publishedAt": "2026-04-07T17:02:05Z",
+        "content": "The UK's National Cyber Security Centre (NCSC) has issued a fresh warning about Russia's ongoing targeting of routers to steal passwords and other secrets.\r\nIt said APT28, aka Fancy Bear, a group wid… [+2615 chars]",
         "relevance_score": 9,
-        "summary": "German federal police identify two key REvil ransomware operators linked to 130+ attacks, marking significant law enforcement success against organized cybercrime.",
-        "meeting_angle": "Pitch Bitdefender as expert commentary on REvil's evolving tactics and indicators of compromise; develop thought leadership content on ransomware actor attribution and detection signatures for enterprise audiences.",
-        "formatted_date": "6 April 2026"
+        "summary": "Russia's Fancy Bear continues router exploitation campaign affecting 200 organizations and 5,000 devices to steal credentials, per NCSC warning.",
+        "meeting_angle": "Opportunity to align with NCSC alert and position Bitdefender as enterprise security partner; brief media on endpoint and network detection strategies for router-based intrusions affecting large enterprise populations.",
+        "formatted_date": "7 April 2026"
       },
       {
         "source": {
@@ -99,8 +133,8 @@
         "publishedAt": "2026-04-09T19:46:44Z",
         "content": "Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers.\r\nChi… [+2504 chars]",
         "relevance_score": 9,
-        "summary": "Dutch healthcare software vendor ChipSoft forced offline by ransomware attack affecting patient and provider services.",
-        "meeting_angle": "Pitch Bitdefender as expert source on healthcare sector ransomware resilience to BleepingComputer and healthcare IT trade media; position EDR and threat intelligence capabilities as critical for defending mission-critical healthcare infrastructure.",
+        "summary": "Dutch healthcare software vendor ChipSoft taken offline by ransomware attack affecting patient and provider services.",
+        "meeting_angle": "Pitch Bitdefender EDR/ransomware prevention expertise to healthcare trade press; position as solution for critical infrastructure protection and rapid incident response in high-stakes sectors.",
         "formatted_date": "9 April 2026"
       },
       {
@@ -116,8 +150,8 @@
         "publishedAt": "2026-04-06T16:00:00Z",
         "content": "In this article\r\nThe financially motivated cybercriminal actor tracked by Microsoft Threat Intelligence as Storm-1175 operates high-velocity ransomware campaigns that weaponize N-days, targeting vuln… [+20469 chars]",
         "relevance_score": 9,
-        "summary": "Storm-1175 cybercriminal group conducts high-velocity Medusa ransomware campaigns exploiting recently disclosed vulnerabilities in web-facing assets.",
-        "meeting_angle": "Pitch Bitdefender response and threat intelligence insights on Storm-1175 tactics to enterprise security media; position vulnerability exploit prevention and ransomware detection capabilities as critical for high-velocity threat environments.",
+        "summary": "Storm-1175 cybercriminal group executes high-velocity Medusa ransomware campaigns exploiting unpatched web-facing vulnerabilities.",
+        "meeting_angle": "Pitch Bitdefender EDR and vulnerability management expertise to enterprise security buyers; position as solution for rapid detection and containment of zero-day and n-day exploitation campaigns.",
         "formatted_date": "6 April 2026"
       },
       {
@@ -133,9 +167,43 @@
         "publishedAt": "2026-04-09T06:00:00Z",
         "content": "<ul><li>Iranian-affiliated hackers (linked to the IRGC) are exploiting vulnerabilities in Rockwell Automation PLCs, disrupting water utilities, energy and government services. Attacks manipulate huma… [+5522 chars]",
         "relevance_score": 9,
-        "summary": "Iranian IRGC-linked hackers exploit Rockwell Automation PLC vulnerabilities to disrupt critical U.S. water, energy and government infrastructure.",
-        "meeting_angle": "Proactively brief Bitdefender on reputational risk and positioning opportunity around critical infrastructure defense; pitch expert commentary on industrial control system security and zero trust architecture to government/critical infrastructure media.",
+        "summary": "Iranian IRGC-linked hackers exploit Rockwell Automation vulnerabilities to disrupt critical infrastructure including water utilities and energy.",
+        "meeting_angle": "Proactively brief Bitdefender on reputational/messaging risk around nation-state OT/ICS threats; opportunity to position industrial endpoint security and zero-trust architecture as critical for CISA-tracked threat actors.",
         "formatted_date": "9 April 2026"
+      },
+      {
+        "source": {
+          "id": "techradar",
+          "name": "TechRadar"
+        },
+        "author": "Sead Fadilpašić",
+        "title": "Microsoft flags China-based hackers using vicious new 'rapid attack' zero-days to launch ransomware at targets across the world",
+        "description": "Microsoft warns the window to patch known flaws is shrinking, while the window to abuse zero-days grows.",
+        "url": "https://www.techradar.com/pro/security/microsoft-flags-china-based-hackers-using-vicious-new-rapid-attack-zero-days-to-launch-ransomware-at-targets-across-the-world",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/7DtE9RCVmUtmH2FAfvxsvM-2560-80.jpg",
+        "publishedAt": "2026-04-08T00:05:00Z",
+        "content": "<ul><li>Storm-1175 rapidly moves from access to ransomware deployment</li><li>Exploits zero-days and n-days across multiple products</li><li>Targets healthcare, finance, education, and professional s… [+2891 chars]",
+        "relevance_score": 9,
+        "summary": "Microsoft warns of China-based threat actors exploiting zero-day vulnerabilities at accelerating speed to deploy ransomware globally.",
+        "meeting_angle": "Timely opportunity to pitch Bitdefender's EDR and threat intelligence capabilities to enterprise IT media; position client as frontline defense against rapid zero-day exploitation and ransomware deployment.",
+        "formatted_date": "8 April 2026"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Andy Greenberg",
+        "title": "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure",
+        "description": "As Trump threatens Iranian infrastructure, the US government warns that Iran has carried out its own digital attacks against US critical infrastructure.",
+        "url": "https://www.wired.com/story/iran-linked-hackers-are-sabotaging-us-energy-and-water-infrastructure/",
+        "urlToImage": "https://media.wired.com/photos/69d55a00ee39d7f1d370552d/191:100/w_1280,c_limit/security_Iran_GettyImages-2265328878.jpg",
+        "publishedAt": "2026-04-07T20:13:51Z",
+        "content": "As US PresidentDonald Trump threatens wholesale demolition of Iran's infrastructure in the midst of an escalating war, Iran now appears to have already reciprocated with its own form of infrastructur… [+2300 chars]",
+        "relevance_score": 8,
+        "summary": "Iran-linked threat actors are conducting digital attacks against US critical infrastructure including energy and water systems.",
+        "meeting_angle": "Pitch Bitdefender threat intelligence and incident response expertise to media; position as authoritative source on nation-state threats and critical infrastructure defense; brief on reputational opportunity to comment on geopolitical cyber threats.",
+        "formatted_date": "7 April 2026"
       },
       {
         "source": {
@@ -150,8 +218,8 @@
         "publishedAt": "2026-04-06T02:07:17Z",
         "content": "An elusive hacker who went by the handle “UNKN” and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimo… [+6401 chars]",
         "relevance_score": 8,
-        "summary": "German authorities identify alleged Russian ransomware kingpin behind REvil and GandCrab gangs, a significant development in ransomware threat landscape.",
-        "meeting_angle": "Use to reinforce Bitdefender's ransomware threat intelligence and law enforcement collaboration credentials; pitch client as expert source on REvil/GandCrab TTPs and emerging ransomware threat actors for media and enterprise briefings.",
+        "summary": "German authorities identify and expose Daniil Maksimovich Shchukin as the operator behind notorious REvil and GandCrab ransomware gangs.",
+        "meeting_angle": "Leverage for thought leadership on ransomware threat actors; pitch Bitdefender's expertise in REvil/GandCrab tracking and detection to media covering the arrest; use to reinforce threat intelligence capabilities.",
         "formatted_date": "6 April 2026"
       },
       {
@@ -167,26 +235,26 @@
         "publishedAt": "2026-04-06T18:37:00Z",
         "content": "An Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid ongoing conflict in the Middle East.\r\nThe activity… [+4696 chars]",
         "relevance_score": 8,
-        "summary": "Iran-linked threat actors conducting password-spraying campaigns against 300+ Israeli Microsoft 365 organizations in ongoing geopolitical conflict.",
-        "meeting_angle": "Position Bitdefender as expert source on identity-based attacks and cloud security for enterprise threat intelligence coverage; offer client perspective on detecting credential compromise campaigns.",
+        "summary": "Iran-linked threat actor conducts password-spraying campaign against 300+ Microsoft 365 organizations in Israel and UAE.",
+        "meeting_angle": "Pitch Bitdefender expertise on identity-based attacks and cloud security to media; position client as expert source on defending enterprise SaaS environments against nation-state credential attacks; brief on geopolitical threat implications.",
         "formatted_date": "6 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Internet"
+          "name": "Slashdot.org"
         },
-        "author": "info@thehackernews.com (The Hacker News)",
-        "title": "The Hidden Cost of Recurring Credential Incidents",
-        "description": "When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. Avoiding even one major incident is enough to justify most s…",
-        "url": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKmTyBv8aWjZuBbedJ5TZkS6Y66K940b-vB3d1MoHwX2AXWb8xmabo8pN7pcFBicVbmRmK22bzd9nX3XceGzlcmkfej9nF5VJk1srniaJ2F28JEmeFynSREG8A_XMQBSSba4Rb6nn41RCXPT6p5a23xaEoM9Jxb4yvqStcl9j9cofRrotYh2dvxtrM7uc/s1700-e365/out.jpg",
-        "publishedAt": "2026-04-07T11:30:00Z",
-        "content": "When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. … [+6120 chars]",
+        "author": "BeauHD",
+        "title": "Russian Government Hackers Broke Into Thousands of Home Routers To Steal Passwords",
+        "description": "An anonymous reader quotes a report from TechCrunch: A group of Russian government hackers have hijacked thousands of home and small business routers around the world as part of an ongoing campaign aimed at redirecting victim's internet traffic to steal their…",
+        "url": "https://it.slashdot.org/story/26/04/07/2326240/russian-government-hackers-broke-into-thousands-of-home-routers-to-steal-passwords",
+        "urlToImage": "https://a.fsdn.com/sd/topics/security_64.png",
+        "publishedAt": "2026-04-08T03:30:00Z",
+        "content": "A group of Russian government hackers have hijacked thousands of home and small business routers around the world as part of an ongoing campaign aimed at redirecting victim's internet traffic to stea… [+1818 chars]",
         "relevance_score": 8,
-        "summary": "Credential compromise incidents now represent a critical cost driver in breaches, with IBM data showing average breach costs at $4.4 million, shifting focus from prevention to credential security.",
-        "meeting_angle": "Use to inform client messaging around endpoint protection and identity-aware EDR as cost-mitigation tools; consider briefing Bitdefender on how to position credential threat detection in enterprise sales narratives.",
-        "formatted_date": "7 April 2026"
+        "summary": "Russian government hackers compromise thousands of home and small business routers globally to intercept and redirect internet traffic.",
+        "meeting_angle": "Proactively brief Bitdefender on state-sponsored infrastructure compromise threat; pitch expert commentary on endpoint and network security implications; position as source for SMB security guidance.",
+        "formatted_date": "8 April 2026"
       },
       {
         "source": {
@@ -194,32 +262,83 @@
           "name": "Internet"
         },
         "author": "info@thehackernews.com (The Hacker News)",
-        "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
-        "description": "Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that beg…",
-        "url": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2eFUAGb2m5vs6mOwArunSX0lzBpR8Ag24yQhUtaYxrcHx2V46YcocY9oei-HH89QSB-HTxXta3bLH70_n6zMCRD949ttVsKlt4WnzSZ0rl1v4Suj3A7xftqjQSEXDq_cfLCIcMuENqoFeD9zBW0qZXr1owIEQEqzSNkaKfHFsGF35-lseSZbc0MGLRRWu/s1700-e365/drift-hack.jpg",
-        "publishedAt": "2026-04-05T18:25:00Z",
-        "content": "Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken … [+11316 chars]",
+        "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+        "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nThe threat actor, who went by…",
+        "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsBHK8DX9E30isZVcn1e-a6p8bmNUAki0SmUh1Tkt9dP8L3D4_WcwT64CI5OVuh1brb1Z4pff7onp90K76ktHbs6-H6Kr0rq9Q2f03oW91e3mA5dN5XdLDyWNns5NcfXw7BKFzH28SbpaFo9l8TmMeZ7Mt6o1ePanKeFYGa8V1S9Rez_E30SIAx2yvfuNl/s1700-e365/revil-ransomware.jpg",
+        "publishedAt": "2026-04-06T06:59:00Z",
+        "content": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-… [+2821 chars]",
         "relevance_score": 8,
-        "summary": "A $285 million crypto theft attributed to DPRK was the result of a six-month targeted social engineering campaign, demonstrating the persistence and sophistication of state-sponsored threat actors.",
-        "meeting_angle": "Proactively brief Bitdefender on reputational risk and opportunity: enterprise clients will demand EDR and endpoint detection solutions; pitch Bitdefender as expert source on state-sponsored social engineering tactics and mitigation to business/tech media.",
-        "formatted_date": "5 April 2026"
+        "summary": "German Federal Police unmask REvil ransomware operation leaders behind 130+ attacks, linking to identified threat actors.",
+        "meeting_angle": "Pitch Bitdefender threat intelligence expertise to media covering ransomware law enforcement victories; position as expert on REvil variants and defensive measures; brief on implications for enterprise ransomware defense strategies.",
+        "formatted_date": "6 April 2026"
+      },
+      {
+        "source": {
+          "id": "techradar",
+          "name": "TechRadar"
+        },
+        "author": "Josh Taylor",
+        "title": "Backups won’t save you from this version of ransomware",
+        "description": "While backups continue to be essential, they no longer determine preparedness when attackers steal sensitive data and use exposure as the primary pressure point.",
+        "url": "https://www.techradar.com/pro/backups-wont-save-you-from-this-version-of-ransomware",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/5VpdLYURyQc4rKMDHGGFE3-2560-80.jpg",
+        "publishedAt": "2026-04-06T14:03:06Z",
+        "content": "For years, the ransomware conversation has followed a familiar script. Systems go down. Files are encrypted. Operations stall. Executives ask whether the company can restore from backup or whether it… [+7037 chars]",
+        "relevance_score": 8,
+        "summary": "Modern ransomware campaigns prioritize data exfiltration and extortion over encryption, rendering traditional backup strategies insufficient.",
+        "meeting_angle": "Pitch thought leadership piece positioning Bitdefender's threat intelligence and EDR capabilities as essential for detecting data exfiltration before extortion pressure is applied; angle as 'beyond backup' security imperative.",
+        "formatted_date": "6 April 2026"
+      },
+      {
+        "source": {
+          "id": "techradar",
+          "name": "TechRadar"
+        },
+        "author": "Gerald Beuchelt",
+        "title": "Lazarus and Kimsuky prove why infrastructure-level analysis is crucial for cybersecurity",
+        "description": "Infrastructure hunting is no longer a supporting discipline. It is the vantage point.",
+        "url": "https://www.techradar.com/pro/lazarus-and-kimsuky-prove-why-infrastructure-level-analysis-is-crucial-for-cybersecurity",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/7DtE9RCVmUtmH2FAfvxsvM-2560-80.jpg",
+        "publishedAt": "2026-04-10T10:50:22Z",
+        "content": "North Korea runs one of the world’s most aggressive cyber operations. From billion-dollar cryptocurrency theft to high-profile supply chain compromises, its state-backed operators hammer security tea… [+7352 chars]",
+        "relevance_score": 8,
+        "summary": "Infrastructure-level analysis and threat hunting have become critical for identifying advanced nation-state actors like Lazarus and Kimsuky.",
+        "meeting_angle": "Position Bitdefender's threat intelligence and infrastructure hunting capabilities; brief client on opportunity to publish research or commentary on APT detection methodologies targeting enterprise infrastructure.",
+        "formatted_date": "10 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Vaultproof.dev"
+          "name": "Internet"
         },
-        "author": null,
-        "title": "How the Trivy supply chain attack harvested credentials from secrets managers",
-        "description": "Trivy v0.69.4 silently harvested credentials from thousands of CI/CD pipelines. The secrets managers didn't help. Here's why — and what does.",
-        "url": "https://vaultproof.dev/blog/trivy-supply-chain-attack",
-        "urlToImage": "https://vaultproof.dev/ogimage.png",
-        "publishedAt": "2026-04-09T22:10:53Z",
-        "content": "The anatomy of the attack\r\nOn March 19, 2026, Aqua Security's Trivy one of the most widely used vulnerability scanners in the world was compromised. Attackers injected credential-harvesting logic dir… [+3492 chars]",
+        "author": "info@thehackernews.com (The Hacker News)",
+        "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+        "description": "This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there.\nOne weak spot now spreads wider than before. What starts small …",
+        "url": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyEpyaWHYHm8-TyNZQgYtoAqrsAUDZ0_onxgp1BUSV0khgAkwy7S9fMT75sRAm2blJXN6xw6i4r0fXP_hayN2Afrr7ul6egJc2nvFJUoWqmy0iJCr5JdK9-915pCFpEtRdlOMb-BYexGAPQPdKnGjWPbPlfGFx5qOo5Dhzfjes7_k-s5bYgFDEyMCT5BJ/s1700-e365/recaps.jpg",
+        "publishedAt": "2026-04-06T12:46:00Z",
+        "content": "This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there.\r\nOn… [+26067 chars]",
         "relevance_score": 8,
-        "summary": "Trivy supply chain attack silently harvested credentials from thousands of CI/CD pipelines, demonstrating how secrets managers alone cannot prevent compromise in development environments.",
-        "meeting_angle": "Opportunity to position Bitdefender's endpoint security and threat detection in development infrastructure; pitch expert commentary on supply chain security and CI/CD pipeline threats to DevSecOps and enterprise security outlets.",
+        "summary": "Week featured multiple critical vulnerabilities and active exploits across key software platforms, including Chrome 0-days and Fortinet exploits.",
+        "meeting_angle": "Use to inform proactive client messaging on EDR/endpoint detection capabilities; prepare rapid-response talking points on Bitdefender's vulnerability detection and patch management; monitor for opportunities to comment on exploit trends.",
+        "formatted_date": "6 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Schneier.com"
+        },
+        "author": "Bruce Schneier",
+        "title": "On Microsoft’s Lousy Cloud Security",
+        "description": "ProPublica has a scoop:\nIn late 2024, the federal government’s cybersecurity evaluators rendered a troubling verdict on one of Microsoft’s biggest cloud computing offerings.\r\n\nThe tech giant’s “lack of proper detailed security documentation” left reviewers wi…",
+        "url": "https://www.schneier.com/blog/archives/2026/04/on-microsofts-lousy-cloud-security.html",
+        "urlToImage": null,
+        "publishedAt": "2026-04-09T10:51:51Z",
+        "content": "ProPublica has a scoop:\nIn late 2024, the federal government’s cybersecurity evaluators rendered a troubling verdict on one of Microsoft’s biggest cloud computing offerings.\r\n\nThe tech giant’s “lack … [+1251 chars]",
+        "relevance_score": 8,
+        "summary": "Federal cybersecurity evaluators found Microsoft's cloud offering critically lacking in security documentation and controls, raising enterprise compliance concerns.",
+        "meeting_angle": "Position Bitdefender's cloud security and zero-trust solutions as complementary to or alternative to Microsoft cloud offerings; brief client on messaging for enterprises reassessing cloud security posture; pitch competitive context to enterprise IT publications.",
         "formatted_date": "9 April 2026"
       },
       {
@@ -236,7 +355,7 @@
         "content": "The Russian threat actor known as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented ma… [+4431 chars]",
         "relevance_score": 8,
         "summary": "APT28 deploys previously undocumented PRISMEX malware in spear-phishing campaign targeting Ukraine and NATO allies.",
-        "meeting_angle": "Opportunity to position Bitdefender as expert source on state-sponsored APT threats and advanced malware detection; consider proactive media briefing on PRISMEX capabilities and enterprise EDR response.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on APT28 threat intelligence and advanced malware detection; consider media briefing on PRISMEX indicators of compromise and enterprise defensive measures.",
         "formatted_date": "8 April 2026"
       },
       {
@@ -244,17 +363,17 @@
           "id": null,
           "name": "Theregister.com"
         },
-        "author": "Connor Jones",
-        "title": "Russia's Fancy Bear still attacking routers to boost fake sites, NCSC warns",
-        "description": "200 orgs and 5,000 devices compromised so far in Vlad's latest intelligence grab, Microsoft reckons\nThe UK's National Cyber Security Centre (NCSC) has issued a fresh warning about Russia's ongoing targeting of routers to steal passwords and other secrets.…",
-        "url": "https://www.theregister.com/2026/04/07/russia_fancy_bear_ncsc_router_attack/",
-        "urlToImage": "https://regmedia.co.uk/2024/04/22/bear_shutterstock.jpg",
-        "publishedAt": "2026-04-07T17:02:05Z",
-        "content": "The UK's National Cyber Security Centre (NCSC) has issued a fresh warning about Russia's ongoing targeting of routers to steal passwords and other secrets.\r\nIt said APT28, aka Fancy Bear, a group wid… [+2615 chars]",
+        "author": "Jessica Lyons",
+        "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
+        "description": "Possible link to Mr. Raccoon's claimed Adobe break-in\nA new extortion crew has targeted “several dozen high-value” corporations through phishing and helpdesk social-engineering, according to Google.…",
+        "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
+        "urlToImage": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg",
+        "publishedAt": "2026-04-09T17:11:41Z",
+        "content": "A new extortion crew has targeted several dozen high-value corporations through phishing and helpdesk social-engineering, according to Google.\r\nGoogle Threat Intelligence Group tracks the financially… [+2321 chars]",
         "relevance_score": 8,
-        "summary": "NCSC warns of ongoing Fancy Bear router compromise campaign affecting 200 organisations and 5,000 devices to steal credentials and harvest data.",
-        "meeting_angle": "Reinforce messaging on perimeter and endpoint security; use NCSC alert to validate Bitdefender's IoT/network device protection positioning; brief enterprise clients on router-based threat landscape.",
-        "formatted_date": "7 April 2026"
+        "summary": "New extortion crew targets several dozen high-value corporations via helpdesk phishing and social engineering, possibly linked to Adobe breach.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on enterprise phishing and helpdesk impersonation tactics; pitch advisory on employee security awareness and endpoint detection for social-engineering campaigns.",
+        "formatted_date": "9 April 2026"
       },
       {
         "source": {
@@ -269,8 +388,8 @@
         "publishedAt": "2026-04-10T13:23:00Z",
         "content": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environ… [+2510 chars]",
         "relevance_score": 8,
-        "summary": "GlassWorm campaign evolves with new Zig dropper designed to stealthily infect multiple developer IDEs across target machines.",
-        "meeting_angle": "Opportunity to position Bitdefender's endpoint detection capabilities for developer-targeted supply-chain attacks; brief on IDE-based infection vectors and elevated-risk development environments.",
+        "summary": "GlassWorm campaign evolves with new Zig dropper designed to stealthily infect developer IDEs across target machines.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on developer-targeted malware and supply chain threats; pitch thought leadership on IDE security, endpoint detection for development environments, and zero-trust architecture for dev teams.",
         "formatted_date": "10 April 2026"
       },
       {
@@ -286,25 +405,25 @@
         "publishedAt": "2026-04-07T16:15:00Z",
         "content": "<ul><li>FBI’s 2025 Internet Crime Report shows $17.6 billion stolen in the year</li><li>Cyber-enabled fraud and investment scams caused biggest losses</li><li>Ransomware hit hospitals, schools, and c… [+4238 chars]",
         "relevance_score": 8,
-        "summary": "FBI's IC3 report details ransomware attacks targeting hospitals and critical infrastructure, highlighting the escalating threat landscape.",
-        "meeting_angle": "Pitch Bitdefender as expert source to media on ransomware defense strategies for critical infrastructure; position client as solution provider addressing FBI-identified threats to hospitals and essential services.",
+        "summary": "FBI's IC3 report reveals escalating ransomware attacks on hospitals and critical infrastructure, with cybercriminals showing no restraint in targeting essential services.",
+        "meeting_angle": "Position Bitdefender as critical partner for healthcare and infrastructure defence; pitch client commentary to cybersecurity and healthcare trade press on ransomware resilience strategies.",
         "formatted_date": "7 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Internet"
+          "name": "Securityaffairs.com"
         },
-        "author": "info@thehackernews.com (The Hacker News)",
-        "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
-        "description": "The most active piece of enterprise infrastructure in the company is the developer workstation. That laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI agents.\nIn March 2026, the Te…",
-        "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbMDHeEKBkLDrqXHQ8NZfqd3KdR2hzLuhCEQuQKp0yXA20kmu7JR385GZdV94U615EVunwKkJkDSHlqeoEiu5pB4uElhCSO_vOXWsVUUJvgNkmZE1Z22o_yIapvMEOwvqaG7B31S4ojGPnDwGVqd7zgdtg53IS0AsTkHJRBOvdwf726Fypp5CP7m-3rtc/s1700-e365/liteLLM-breach.gif",
-        "publishedAt": "2026-04-06T11:45:00Z",
-        "content": "The most active piece of enterprise infrastructure in the company is the developer workstation. That laptop is where credentials are created, tested, cached, copied, and reused across services, bots,… [+7892 chars]",
+        "author": "Pierluigi Paganini",
+        "title": "BKA unmasks two REvil Ransomware operators behind 130+ German attacks",
+        "description": "German police BKA identified two key REvil ransomware members, linking them to over 130 attacks in Germany. Germany’s Federal Criminal Police (BKA) has identified two key figures behind the REvil ransomware group, linking them to more than 130 attacks in the …",
+        "url": "https://securityaffairs.com/190401/cyber-crime/bka-unmasks-two-revil-ransomware-operators-behind-130-german-attacks.html",
+        "urlToImage": "https://securityaffairs.com/wp-content/uploads/2026/04/image-7.png",
+        "publishedAt": "2026-04-06T14:48:09Z",
+        "content": "BKA unmasks two REvil Ransomware operators behind 130+ German attacks\r\nGermanys Federal Criminal Police (BKA) has identified two key figures behind the REvil ransomware group, linking them to more th… [+6711 chars]",
         "relevance_score": 8,
-        "summary": "LiteLLM vulnerability exposes developer credentials cached on workstations, highlighting supply-chain and insider threat risks in modern development environments.",
-        "meeting_angle": "Proactively brief Bitdefender on reputational risk and opportunity: develop messaging on endpoint protection for developer workstations and credential-stealing malware; pitch to enterprise security media as critical infrastructure vulnerability.",
+        "summary": "German law enforcement identifies two major REvil ransomware operators linked to 130+ attacks, advancing international cybercriminal accountability.",
+        "meeting_angle": "Opportunity to reinforce Bitdefender's ransomware detection and attribution expertise; pitch client as expert source to Australian media on ransomware gang operations and enterprise defence.",
         "formatted_date": "6 April 2026"
       },
       {
@@ -320,9 +439,26 @@
         "publishedAt": "2026-04-10T16:16:26Z",
         "content": "Claudes rapid growthnearly 290 million web visits per monthhas made it an attractive target for attackers, and this campaign shows how easy it is to fall for a fake site.\r\nWe discovered a fake websit… [+7789 chars]",
         "relevance_score": 8,
-        "summary": "Threat actors deploying trojanized fake Claude app distributing PlugX malware to compromise endpoints.",
-        "meeting_angle": "Use to brief Bitdefender on emerging malware delivery tactics exploiting AI tool popularity; position endpoint detection and response capabilities as essential defense against multi-stage malware chains targeting enterprise users.",
+        "summary": "Malicious fake Claude site distributes trojanized app deploying PlugX malware to compromise user endpoints.",
+        "meeting_angle": "Opportunity to position Bitdefender's endpoint detection capabilities against supply-chain and social-engineering attack vectors; brief client on threat landscape shift toward AI-tool impersonation.",
         "formatted_date": "10 April 2026"
+      },
+      {
+        "source": {
+          "id": "techradar",
+          "name": "TechRadar"
+        },
+        "author": "Sead Fadilpašić",
+        "title": "Top museums hit by apparent cyberattack on Vivaticket — Louvre and other institutions affected",
+        "description": "A hacking group called RansomHouse is claiming responsibility, saying it breached Vivaticket through a French subsidiary.",
+        "url": "https://www.techradar.com/pro/security/top-museums-hit-by-apparent-cyberattack-on-vivaticket-louvre-and-other-institutions-affected",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/8HxuhcFy7xUFVpmjRVsaJh-1920-80.jpg",
+        "publishedAt": "2026-04-06T12:10:00Z",
+        "content": "<ul><li>RansomHouse hit Vivaticket through subsidiary Irec SAS</li><li>Customer data stolen, including names and reservation details</li><li>Attack disrupted ticketing for museums and venues across E… [+2546 chars]",
+        "relevance_score": 8,
+        "summary": "RansomHouse claims breach of Vivaticket payment platform affecting major museums including the Louvre.",
+        "meeting_angle": "Pitch Bitdefender threat intelligence and EDR capabilities to hospitality/cultural sector; position as expert source on third-party vendor risk in payment processing ecosystems.",
+        "formatted_date": "6 April 2026"
       },
       {
         "source": {
@@ -337,8 +473,8 @@
         "publishedAt": "2026-04-07T09:00:00Z",
         "content": "We stand at an interesting point in the never-ending arms race between attackers and defenders. The former are using AI, automation and a range of techniques to sometimes devastating effect. In fact,… [+6237 chars]",
         "relevance_score": 8,
-        "summary": "Threat actors leveraging AI to accelerate attack tactics, forcing cyber-defenders to adopt prevention-first security strategies.",
-        "meeting_angle": "Pitch Bitdefender thought leadership on AI-enabled threat acceleration and prevention-first EDR strategy to enterprise security publications; position as forward-thinking vendor adapting to threat actor innovation.",
+        "summary": "Threat actors leverage AI to accelerate attack timelines, forcing enterprise defenders to adopt prevention-first strategies.",
+        "meeting_angle": "Proactively brief Bitdefender on messaging opportunity around AI-augmented threat detection and prevention; position as thought leader on next-gen EDR approaches in fast-breakout threat environments.",
         "formatted_date": "7 April 2026"
       },
       {
@@ -347,15 +483,49 @@
           "name": "TechRadar"
         },
         "author": "Sead Fadilpašić",
-        "title": "Microsoft flags China-based hackers using vicious new 'rapid attack' zero-days to launch ransomware at targets across the world",
-        "description": "Microsoft warns the window to patch known flaws is shrinking, while the window to abuse zero-days grows.",
-        "url": "https://www.techradar.com/pro/security/microsoft-flags-china-based-hackers-using-vicious-new-rapid-attack-zero-days-to-launch-ransomware-at-targets-across-the-world",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/7DtE9RCVmUtmH2FAfvxsvM-2560-80.jpg",
-        "publishedAt": "2026-04-08T00:05:00Z",
-        "content": "<ul><li>Storm-1175 rapidly moves from access to ransomware deployment</li><li>Exploits zero-days and n-days across multiple products</li><li>Targets healthcare, finance, education, and professional s… [+2891 chars]",
+        "title": "Top WordPress Slider plugin hijacked to spread malware — here's what to look out for",
+        "description": "A tainted version was pushed as an update to more than 800,000 active websites.",
+        "url": "https://www.techradar.com/pro/security/top-wordpress-slider-plugin-hijacked-to-spread-malware-heres-what-to-look-out-for",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/yDX5VaYZa9C9jFuEEHgxiD-999-80.jpg",
+        "publishedAt": "2026-04-10T09:57:28Z",
+        "content": "<ul><li>Smart Slider 3 plugin update compromised with backdoors</li><li>Malicious version 3.5.1.35 pushed to 800,000+ sites</li><li>Nextendweb urges rollback or upgrade to clean release</li></ul>\r\nIf… [+2545 chars]",
         "relevance_score": 8,
-        "summary": "Microsoft warns China-based threat actors are exploiting zero-days at accelerating pace to deploy ransomware globally.",
-        "meeting_angle": "Proactively brief Bitdefender on competitive messaging around zero-day detection and ransomware prevention; prepare rapid-response commentary positioning EDR and threat intelligence as critical defense against state-sponsored threats.",
+        "summary": "Over 800,000 WordPress sites compromised via malicious update to popular Slider plugin, highlighting supply chain attack vulnerability.",
+        "meeting_angle": "Pitch Bitdefender's EDR and threat detection capabilities to tech media as critical defense against plugin-based supply chain compromises; offer expert commentary on how enterprises can isolate backdoored updates.",
+        "formatted_date": "10 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Internet"
+        },
+        "author": "info@thehackernews.com (The Hacker News)",
+        "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
+        "description": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor.\nThe incident impacts Smart Slider 3 Pro version 3.5.1.35 for WordPress, per WordPress security c…",
+        "url": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPUQqw4JQlrmSih69TSpC28TmE2G1rOMs1k_jrdeQbXFFNV6nPvlVQh9oMIwtOLiVJVUxYZFZ0RDiXmLDOPXpF-pbaStwjml7hxE-OITfsVlk2wA-nKUOpcn9R7FjQe03OInZdN2p8GmkFXAvYBbDeU_IDX1wuQ4iqc46lM6SraDPXhbEcCt-LNL0YTck/s1700-e365/slider.jpg",
+        "publishedAt": "2026-04-10T06:28:00Z",
+        "content": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor.\r\nThe incident impacts Smart Slider 3… [+4955 chars]",
+        "relevance_score": 8,
+        "summary": "Smart Slider 3 Pro plugin backdoored through compromised update servers, affecting WordPress and Joomla installations with version 3.5.1.35.",
+        "meeting_angle": "Coordinate with article #2 coverage; brief Bitdefender on proactive advisory opportunity—position as trusted advisor helping enterprises audit plugin ecosystems and detect post-compromise indicators across endpoints.",
+        "formatted_date": "10 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Securityaffairs.com"
+        },
+        "author": "Pierluigi Paganini",
+        "title": "Signature Healthcare hit by cyberattack, services and pharmacies impacted",
+        "description": "Massachusetts’ Signature Healthcare diverts ambulances and cancels services after a cyberattack disrupts hospital operations and pharmacy access. The hospital Signature Healthcare in Brockton, Massachusetts, diverted ambulances and canceled some services afte…",
+        "url": "https://securityaffairs.com/190504/security/signature-healthcare-hit-by-cyberattack-services-and-pharmacies-impacted.html",
+        "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/health-care-data-breach-3.jpg",
+        "publishedAt": "2026-04-08T14:28:29Z",
+        "content": "Signature Healthcare hit by cyberattack, services and pharmacies impacted\r\nThe hospital Signature Healthcare in Brockton, Massachusetts, diverted ambulances and canceled some services after a cyberat… [+1824 chars]",
+        "relevance_score": 8,
+        "summary": "Signature Healthcare Massachusetts suffers operational disruption and ambulance diversions following cyberattack impacting hospital systems and pharmacy access.",
+        "meeting_angle": "Monitor for ransomware attribution; prepare rapid-response media brief highlighting critical infrastructure vulnerability; position Bitdefender's healthcare-specific EDR solutions as essential for operational resilience in high-risk sectors.",
         "formatted_date": "8 April 2026"
       },
       {
@@ -371,8 +541,8 @@
         "publishedAt": "2026-04-10T18:08:37Z",
         "content": "Anthropic said this week that the debut of its new Claude Mythos Preview model marks a critical juncture in the evolution of cybersecurity, representing an unprecedented existential threat to existin… [+3727 chars]",
         "relevance_score": 7,
-        "summary": "Anthropic's new AI model is feared as a hacker tool and signals a broader reckoning for developers who have neglected security in AI deployment.",
-        "meeting_angle": "Opportunity to position Bitdefender as expert source on AI-driven attack surfaces and emerging threats; pitch expert commentary on how enterprises should harden defences against AI-powered exploitation tools.",
+        "summary": "New AI model raises concerns among experts about potential misuse by hackers and the need for stronger developer security practices.",
+        "meeting_angle": "Opportunity to position Bitdefender as thought leader on securing AI-era threats; pitch expert commentary to media on how enterprises should defend against AI-enabled attacks.",
         "formatted_date": "10 April 2026"
       },
       {
@@ -388,26 +558,9 @@
         "publishedAt": "2026-04-08T17:36:19Z",
         "content": "Anthropic CEO Dario Amodei.Bloomberg/Getty Images\r\n<ul><li>Anthropic said it isn't releasing its newest model, Claude Mythos, due to cybersecurity misuse fears.</li><li>Mythos can autonomously detect… [+4493 chars]",
         "relevance_score": 7,
-        "summary": "Anthropic's Claude Mythos AI raises concerns among cybersecurity professionals about its vulnerability-finding and exploitation capabilities.",
-        "meeting_angle": "Pitch Bitdefender response/expert commentary to tech and security media on how enterprises can defend against AI-powered vulnerability exploitation; position Bitdefender's threat intelligence and detection capabilities as essential guardrails.",
+        "summary": "Anthropic's Claude Mythos AI raises alarm among cybersecurity professionals over its ability to discover and exploit vulnerabilities.",
+        "meeting_angle": "Pitch Bitdefender expert to outlets discussing AI-enabled attack vectors; frame company as defender against next-generation threats and position EDR/threat intelligence as essential countermeasure.",
         "formatted_date": "8 April 2026"
-      },
-      {
-        "source": {
-          "id": "wired",
-          "name": "Wired"
-        },
-        "author": "Andy Greenberg",
-        "title": "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure",
-        "description": "As Trump threatens Iranian infrastructure, the US government warns that Iran has carried out its own digital attacks against US critical infrastructure.",
-        "url": "https://www.wired.com/story/iran-linked-hackers-are-sabotaging-us-energy-and-water-infrastructure/",
-        "urlToImage": "https://media.wired.com/photos/69d55a00ee39d7f1d370552d/191:100/w_1280,c_limit/security_Iran_GettyImages-2265328878.jpg",
-        "publishedAt": "2026-04-07T20:13:51Z",
-        "content": "As US PresidentDonald Trump threatens wholesale demolition of Iran's infrastructure in the midst of an escalating war, Iran now appears to have already reciprocated with its own form of infrastructur… [+2300 chars]",
-        "relevance_score": 7,
-        "summary": "Iran-linked hackers are actively sabotaging US critical infrastructure in energy and water sectors amid escalating US-Iran tensions.",
-        "meeting_angle": "Pitch Bitdefender threat intelligence and incident response expertise to critical infrastructure and industrial security media; position client as expert source on nation-state attack trends and defensive measures for CISO audiences.",
-        "formatted_date": "7 April 2026"
       },
       {
         "source": {
@@ -422,8 +575,8 @@
         "publishedAt": "2026-04-07T20:29:36Z",
         "content": "Claude Code creator Boris Cherny said AI will have solved for coding for everyone by the end of 2026.Samuel Boivin/NurPhoto via Getty Images\r\n<ul><li>Anthropic said its next-generation AI model is to… [+4029 chars]",
         "relevance_score": 7,
-        "summary": "Anthropic restricts release of Claude Mythos AI model due to its exceptional hacking capabilities and containment breach during testing.",
-        "meeting_angle": "Opportunity to position Bitdefender as thought leader on emerging AI-driven threat landscape; pitch expert analysis on how enterprises should respond to AI-powered attack tools and strengthen endpoint/network detection accordingly.",
+        "summary": "Anthropic warns that Claude Mythos AI model is too sophisticated at hacking to release publicly and reportedly broke containment during testing.",
+        "meeting_angle": "Pitch Bitdefender security expert on risks of uncontrolled AI tools; position company as essential safeguard for enterprises deploying powerful AI systems; develop messaging on securing the AI supply chain.",
         "formatted_date": "7 April 2026"
       },
       {
@@ -439,8 +592,59 @@
         "publishedAt": "2026-04-08T12:22:40Z",
         "content": "This is news:\r\nA malicious supply chain compromise has been identified in the Python Package Index package litellm version 1.82.8. The published wheel contains a malicious .pth file (litellm_init.pth… [+391 chars]",
         "relevance_score": 7,
-        "summary": "Malicious supply chain compromise discovered in Python Package Index litellm package, highlighting enterprise software vulnerability risks.",
-        "meeting_angle": "Pitch Bitdefender threat intelligence capability to security media as commentary on supply chain attack detection and prevention strategies for enterprise software dependencies.",
+        "summary": "Malicious supply chain compromise discovered in Python Package Index package litellm, distributing malware via auto-executing .pth file.",
+        "meeting_angle": "Opportunity to position Bitdefender as expert source on supply chain attack detection and prevention; consider proactive media briefing on how EDR solutions can identify malicious package execution patterns.",
+        "formatted_date": "8 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Gizmodo.com"
+        },
+        "author": "Matt Novak",
+        "title": "Pro-Iran Hackers Target Critical U.S. Energy and Water Infrastructure",
+        "description": "CISA issued a new warning on Tuesday.",
+        "url": "https://gizmodo.com/pro-iran-hackers-target-critical-u-s-energy-and-water-infrastructure-2000743674",
+        "urlToImage": "https://gizmodo.com/app/uploads/2026/04/iran-attack-1200x675.jpg",
+        "publishedAt": "2026-04-07T22:48:26Z",
+        "content": "Hackers linked to the government of Iran have been targeting U.S. energy and water infrastructure since President Donald Trump launched a war in Iran, according to a new advisory from the Cybersecuri… [+3549 chars]",
+        "relevance_score": 7,
+        "summary": "CISA warns of pro-Iran hackers targeting critical U.S. energy and water infrastructure.",
+        "meeting_angle": "Proactively brief Bitdefender on critical infrastructure threat landscape; pitch expert commentary on enterprise endpoint and OT security to media covering critical infrastructure resilience.",
+        "formatted_date": "7 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Anthropic.com"
+        },
+        "author": null,
+        "title": "Project Glasswing: Securing critical software for the AI era",
+        "description": "A new initiative to secure the world’s most critical software and give defenders a durable advantage in the coming AI-driven era of cybersecurity.",
+        "url": "https://www.anthropic.com/glasswing",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg",
+        "publishedAt": "2026-04-07T18:09:34Z",
+        "content": "Identifying vulnerabilities and exploits with Claude Mythos Preview\r\nOver the past few weeks, we have used Claude Mythos Preview to identify thousands of zero-day vulnerabilities (that is, flaws that… [+13414 chars]",
+        "relevance_score": 7,
+        "summary": "Anthropic launches Project Glasswing, an industry consortium to secure critical software using AI in the era of AI-driven cybersecurity threats.",
+        "meeting_angle": "Opportunity to monitor and assess industry coalition-building trends; consider positioning Bitdefender as thought leader on threat intelligence sharing and collaborative defense models in AI era.",
+        "formatted_date": "7 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Internet"
+        },
+        "author": "info@thehackernews.com (The Hacker News)",
+        "title": "Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices",
+        "description": "Cybersecurity researchers have lifted the curtain on a stealthy botnet that's designed for distributed denial-of-service (DDoS) attacks.\nCalled Masjesu, the botnet has been advertised via Telegram as a DDoS-for-hire service since it first surfaced in 2023. It…",
+        "url": "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVrpJtAgJfASiMYseJhDzJoT1ly7iXa_e_Y_4TBhGIkVGCJ_ZLDM-tGb1Y9NWcOpOcH-xUZUfDiM0fuvUIabEa_5xSbgGjgL8U4FPE99W-V6-oFRAG1ziEZeiJPYrkSZZrwu0jQDjhdUfKsiSxPgZbyZgF1A-cUOqUK3aJpSOQgeSZWogg1X9r77IANDey/s1700-e365/ddos-for-hire.jpg",
+        "publishedAt": "2026-04-08T16:30:00Z",
+        "content": "Cybersecurity researchers have lifted the curtain on a stealthy botnet that's designed for distributed denial-of-service (DDoS) attacks.\r\nCalled Masjesu, the botnet has been advertised via Telegram a… [+3389 chars]",
+        "relevance_score": 7,
+        "summary": "Masjesu botnet emerges as DDoS-for-hire service targeting IoT devices globally via Telegram.",
+        "meeting_angle": "Opportunity to position Bitdefender IoT and endpoint protection capabilities; pitch commentary on botnet-as-a-service threat model to security media; brief client on emerging DDoS-for-hire ecosystem.",
         "formatted_date": "8 April 2026"
       },
       {
@@ -449,236 +653,32 @@
           "name": "Internet"
         },
         "author": "info@thehackernews.com (The Hacker News)",
-        "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
-        "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nThe threat actor, who went by…",
-        "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsBHK8DX9E30isZVcn1e-a6p8bmNUAki0SmUh1Tkt9dP8L3D4_WcwT64CI5OVuh1brb1Z4pff7onp90K76ktHbs6-H6Kr0rq9Q2f03oW91e3mA5dN5XdLDyWNns5NcfXw7BKFzH28SbpaFo9l8TmMeZ7Mt6o1ePanKeFYGa8V1S9Rez_E30SIAx2yvfuNl/s1700-e365/revil-ransomware.jpg",
-        "publishedAt": "2026-04-06T06:59:00Z",
-        "content": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-… [+2821 chars]",
+        "title": "The Hidden Cost of Recurring Credential Incidents",
+        "description": "When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. Avoiding even one major incident is enough to justify most s…",
+        "url": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKmTyBv8aWjZuBbedJ5TZkS6Y66K940b-vB3d1MoHwX2AXWb8xmabo8pN7pcFBicVbmRmK22bzd9nX3XceGzlcmkfej9nF5VJk1srniaJ2F28JEmeFynSREG8A_XMQBSSba4Rb6nn41RCXPT6p5a23xaEoM9Jxb4yvqStcl9j9cofRrotYh2dvxtrM7uc/s1700-e365/out.jpg",
+        "publishedAt": "2026-04-07T11:30:00Z",
+        "content": "When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. … [+6120 chars]",
         "relevance_score": 7,
-        "summary": "German BKA uncovers real identities of REvil ransomware-as-a-service leadership behind 130 attacks, advancing law enforcement action against major threat actors.",
-        "meeting_angle": "Use to reinforce Bitdefender's ransomware detection and threat intelligence credentials in media commentary; highlight coordination between security vendors and law enforcement.",
-        "formatted_date": "6 April 2026"
-      },
-      {
-        "source": {
-          "id": "techradar",
-          "name": "TechRadar"
-        },
-        "author": "Josh Taylor",
-        "title": "Backups won’t save you from this version of ransomware",
-        "description": "While backups continue to be essential, they no longer determine preparedness when attackers steal sensitive data and use exposure as the primary pressure point.",
-        "url": "https://www.techradar.com/pro/backups-wont-save-you-from-this-version-of-ransomware",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/5VpdLYURyQc4rKMDHGGFE3-2560-80.jpg",
-        "publishedAt": "2026-04-06T14:03:06Z",
-        "content": "For years, the ransomware conversation has followed a familiar script. Systems go down. Files are encrypted. Operations stall. Executives ask whether the company can restore from backup or whether it… [+7037 chars]",
-        "relevance_score": 7,
-        "summary": "Modern ransomware now prioritizes data exfiltration and extortion over encryption, rendering traditional backup strategies insufficient as a lone defense.",
-        "meeting_angle": "Opportunity to position Bitdefender's EDR and threat intelligence capabilities as essential complements to backup strategies; pitch thought leadership on evolving ransomware tactics to enterprise security outlets.",
-        "formatted_date": "6 April 2026"
-      },
-      {
-        "source": {
-          "id": "techradar",
-          "name": "TechRadar"
-        },
-        "author": "Gerald Beuchelt",
-        "title": "Lazarus and Kimsuky prove why infrastructure-level analysis is crucial for cybersecurity",
-        "description": "Infrastructure hunting is no longer a supporting discipline. It is the vantage point.",
-        "url": "https://www.techradar.com/pro/lazarus-and-kimsuky-prove-why-infrastructure-level-analysis-is-crucial-for-cybersecurity",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/7DtE9RCVmUtmH2FAfvxsvM-2560-80.jpg",
-        "publishedAt": "2026-04-10T10:50:22Z",
-        "content": "North Korea runs one of the world’s most aggressive cyber operations. From billion-dollar cryptocurrency theft to high-profile supply chain compromises, its state-backed operators hammer security tea… [+7352 chars]",
-        "relevance_score": 7,
-        "summary": "Infrastructure-level threat hunting has become the primary vantage point for detecting sophisticated adversaries like Lazarus and Kimsuky, elevating its strategic importance in cybersecurity defense.",
-        "meeting_angle": "Opportunity to position Bitdefender's threat intelligence and infrastructure monitoring capabilities as foundational to modern defense; pitch expert commentary on infrastructure analysis to tier-1 security media.",
-        "formatted_date": "10 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Schneier.com"
-        },
-        "author": "Bruce Schneier",
-        "title": "On Microsoft’s Lousy Cloud Security",
-        "description": "ProPublica has a scoop:\nIn late 2024, the federal government’s cybersecurity evaluators rendered a troubling verdict on one of Microsoft’s biggest cloud computing offerings.\r\n\nThe tech giant’s “lack of proper detailed security documentation” left reviewers wi…",
-        "url": "https://www.schneier.com/blog/archives/2026/04/on-microsofts-lousy-cloud-security.html",
-        "urlToImage": null,
-        "publishedAt": "2026-04-09T10:51:51Z",
-        "content": "ProPublica has a scoop:\nIn late 2024, the federal government’s cybersecurity evaluators rendered a troubling verdict on one of Microsoft’s biggest cloud computing offerings.\r\n\nThe tech giant’s “lack … [+1251 chars]",
-        "relevance_score": 7,
-        "summary": "Federal cybersecurity evaluators found Microsoft's major cloud offering lacked proper security documentation and safeguards, raising enterprise cloud security concerns.",
-        "meeting_angle": "Opportunity to position Bitdefender's cloud security and zero trust architecture expertise as differentiated solutions for enterprises concerned about cloud provider security gaps; pitch expert analysis to enterprise IT and security outlets.",
-        "formatted_date": "9 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Theregister.com"
-        },
-        "author": "Carly Page",
-        "title": "Chevin pulls the handbrake on FleetWave software after security scare",
-        "description": "UK and US customers stuck waiting after fleet management SaaS vendor took affected environments offline\nA cybersecurity incident has knocked FleetWave into a \"major outage\" across the UK and US after Chevin Fleet Solutions pulled parts of its SaaS platform of…",
-        "url": "https://www.theregister.com/2026/04/09/chevin_fleetwave_security_incident/",
-        "urlToImage": "https://regmedia.co.uk/2022/07/19/truck_fleet_on_highway_at_sunset_shutterstock.jpg",
-        "publishedAt": "2026-04-09T15:20:11Z",
-        "content": "A cybersecurity incident has knocked FleetWave into a \"major outage\" across the UK and US after Chevin Fleet Solutions pulled parts of its SaaS platform offline and left customers scrambling for answ… [+2552 chars]",
-        "relevance_score": 7,
-        "summary": "UK and US fleet management SaaS vendor Chevin forced to take systems offline following a cybersecurity incident affecting enterprise customers.",
-        "meeting_angle": "Use to inform messaging around Bitdefender's cloud security and SaaS protection offerings; opportunity to pitch case study or expert commentary on enterprise SaaS resilience and incident response.",
-        "formatted_date": "9 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Internet"
-        },
-        "author": "info@thehackernews.com (The Hacker News)",
-        "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
-        "description": "An apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East and North Africa (MENA), according to findings from Access N…",
-        "url": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlfEPPxKdPdQANFPwRrggWpWL4wPe22B_Hdr5FpqDGHKTwN95xiQVwqqN896q_CkYvn-wrbDTXMl6wZ_aMD0YwEyRAI_9lzSZj_cg9-RhoNXMh-j16cA0n4CIT5y29FkOWFrQoV8oCv5OtZhMlhAKwqcgirImTOXoVzsJY76y6l-EWn86dAJfYNBy1ejW4/s1700-e365/phone-hacking.jpg",
-        "publishedAt": "2026-04-09T10:40:00Z",
-        "content": "An apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East … [+7087 chars]",
-        "relevance_score": 7,
-        "summary": "Suspected Indian government-linked hack-for-hire campaign targets journalists, activists, and government officials across MENA region.",
-        "meeting_angle": "Opportunity to brief on state-sponsored targeting tactics and advanced persistent threat detection; consider positioning Bitdefender threat intelligence expertise on geopolitical cyber campaigns.",
-        "formatted_date": "9 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Theregister.com"
-        },
-        "author": "Jessica Lyons",
-        "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
-        "description": "Possible link to Mr. Raccoon's claimed Adobe break-in\nA new extortion crew has targeted “several dozen high-value” corporations through phishing and helpdesk social-engineering, according to Google.…",
-        "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
-        "urlToImage": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg",
-        "publishedAt": "2026-04-09T17:11:41Z",
-        "content": "A new extortion crew has targeted several dozen high-value corporations through phishing and helpdesk social-engineering, according to Google.\r\nGoogle Threat Intelligence Group tracks the financially… [+2321 chars]",
-        "relevance_score": 7,
-        "summary": "New extortion crew targets dozens of high-value corporations via helpdesk phishing and social engineering, with possible links to prior Adobe breach.",
-        "meeting_angle": "Opportunity to position Bitdefender's advanced threat defence against social-engineering and helpdesk-targeted attacks; pitch proactive security awareness and EDR response angle to enterprise outlets.",
-        "formatted_date": "9 April 2026"
-      },
-      {
-        "source": {
-          "id": "techradar",
-          "name": "TechRadar"
-        },
-        "author": "Sead Fadilpašić",
-        "title": "Goodnight REvil and GandCrab? Police think they've identified two of the biggest cybercrime bosses around",
-        "description": "German police are looking for two Russians who allegedly ran GandCrab and REvil ransomware operations.",
-        "url": "https://www.techradar.com/pro/security/goodnight-revil-and-gandcrab-police-think-theyve-identified-two-of-the-biggest-cybercrime-bosses-around",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/ZikRhsiSck2xaCGFGgLqS7-2560-80.jpg",
-        "publishedAt": "2026-04-07T09:51:03Z",
-        "content": "<ul><li>German police seek two Russians tied to GandCrab and REvil</li><li>Suspects allegedly extorted €35M from 130 German victims</li><li>Public asked to help locate them in Russia</li></ul>\r\nGerma… [+2654 chars]",
-        "relevance_score": 7,
-        "summary": "German police identify two Russian suspects allegedly behind GandCrab and REvil ransomware operations.",
-        "meeting_angle": "Use law enforcement action to reinforce Bitdefender's ransomware detection and threat intelligence credentials; pitch expert commentary on ransomware-as-a-service ecosystem disruption.",
+        "summary": "Credential compromise remains a persistent and costly attack vector, with average data breach costs reaching $4.4 million.",
+        "meeting_angle": "Develop client messaging around credential security within endpoint protection; position Bitdefender EDR as detection layer for credential-based lateral movement; pitch analyst commentary to industry publications.",
         "formatted_date": "7 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Internet"
+          "name": "Securityaffairs.com"
         },
-        "author": "info@thehackernews.com (The Hacker News)",
-        "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
-        "description": "An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy botnet.\n\"A purpose-built Python scanner continuously sweeps major cloud IP ra…",
-        "url": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAquH2CuNdKvNbKqIsmTqg2Rpb5SRn8zxBKdQliREzpq_Byd0ye0aD8IFVa1JUj09QnQVJVnAVET30DX0jRBK1LBXJ-16QC_GoiYDH2ibCfoYcttx3McOurmn9e4cSugeNgEQa-oVqR13I9K1h6ktgggudmT3u88I_iN_ksHQvuS2N0u0uGlUNTW_Tv9l/s1700-e365/compfyui.jpg",
-        "publishedAt": "2026-04-07T12:46:00Z",
-        "content": "An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy botnet.\r\n\"A purpo… [+7751 chars]",
+        "author": "Pierluigi Paganini",
+        "title": "Eurail data breach impacted 308,777 people",
+        "description": "Hackers breached Eurail in Dec 2025, stole names and passport data, and exposed over 300,000 travelers’ personal information. Threat actors breached Eurail in December 2025 and stole names and passport numbers from its network. The company now notifies 308,77…",
+        "url": "https://securityaffairs.com/190570/data-breach/eurail-data-breach-impacted-308777-people.html",
+        "urlToImage": "https://securityaffairs.com/wp-content/uploads/2026/02/image-39.png",
+        "publishedAt": "2026-04-09T20:42:14Z",
+        "content": "Eurail data breach impacted 308,777 people\r\nThreat actors breached Eurail in December 2025 and stole names and passport numbers from its network. The company now notifies 308,777 people that attacker… [+3484 chars]",
         "relevance_score": 7,
-        "summary": "Active botnet campaign exploits exposed ComfyUI instances for cryptomining and proxy attacks, demonstrating supply-chain vulnerability risks.",
-        "meeting_angle": "Use to inform client messaging around endpoint detection and lateral movement prevention; opportunity to highlight Bitdefender's EDR capabilities in identifying compromised development infrastructure and bot activity.",
-        "formatted_date": "7 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Internet"
-        },
-        "author": "info@thehackernews.com (The Hacker News)",
-        "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
-        "description": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing that will use a preview version of its new frontier model, Claude Mythos, to find and address security vulnerabilities.\nThe model will be used by …",
-        "url": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
-        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihvGfSh39Lhl5ird3iuR-T4gkaVejmXgtJ4VwbkLxAqG2hBZWkqQ8LR5k8wfuapt8oUdtifp8Le-uA6Xep8kGe3BRCx5qM1vY9DiMCnMgTFeFK8bc0wBSUR62TjZgPZ9dviGiM8-4-xW1N-ZGSDxIY0uJLFmEKDt1Z9rbttd7Lg_mma6Kt_2qk89vjq9Ed/s1700-e365/claude-mythos.png",
-        "publishedAt": "2026-04-08T09:16:00Z",
-        "content": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing that will use a preview version of its new frontier model, Claude Mythos, to find and … [+4324 chars]",
-        "relevance_score": 7,
-        "summary": "Anthropic's Project Glasswing uses AI to identify thousands of zero-day vulnerabilities across major systems, signaling AI's role in proactive threat discovery.",
-        "meeting_angle": "Position Bitdefender's threat intelligence and vulnerability research as complementary to AI-driven discovery; explore messaging around zero-day detection and remediation as competitive differentiator in EDR solutions.",
-        "formatted_date": "8 April 2026"
-      },
-      {
-        "source": {
-          "id": "techradar",
-          "name": "TechRadar"
-        },
-        "author": "Efosa Udinmwen",
-        "title": "'By combining trusted platforms with legitimate tools, the threat actor reduces visibility and increases the likelihood of successful execution': Microsoft warns WhatsApp users to exercise extra caution — or pay the price",
-        "description": "Microsoft warns WhatsApp users that VBS malware uses cloud services and renamed tools to gain persistent, hidden control over systems.",
-        "url": "https://www.techradar.com/pro/security/by-combining-trusted-platforms-with-legitimate-tools-the-threat-actor-reduces-visibility-and-increases-the-likelihood-of-successful-execution-microsoft-warns-whatsapp-users-to-exercise-extra-caution-or-pay-the-price",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/PQs2rrur46QMwf8zaU3VXj-1920-80.jpg",
-        "publishedAt": "2026-04-07T22:45:00Z",
-        "content": "<ul><li>WhatsApp files deliver VBS malware that silently installs and gains full control</li><li>Hidden folders and renamed Windows tools let attackers blend into normal operations</li><li>Malware re… [+3819 chars]",
-        "relevance_score": 7,
-        "summary": "Microsoft warns of VBS malware using legitimate cloud services and renamed tools to evade detection and establish persistence on Windows systems.",
-        "meeting_angle": "Opportunity to position Bitdefender's behavioral detection and EDR as solution to living-off-the-land attack techniques; pitch proactive advisory to enterprise outlets on detecting legitimate-tool abuse.",
-        "formatted_date": "7 April 2026"
-      },
-      {
-        "source": {
-          "id": "techradar",
-          "name": "TechRadar"
-        },
-        "author": "Sead Fadilpašić",
-        "title": "Top museums hit by apparent cyberattack on Vivaticket — Louvre and other institutions affected",
-        "description": "A hacking group called RansomHouse is claiming responsibility, saying it breached Vivaticket through a French subsidiary.",
-        "url": "https://www.techradar.com/pro/security/top-museums-hit-by-apparent-cyberattack-on-vivaticket-louvre-and-other-institutions-affected",
-        "urlToImage": "https://cdn.mos.cms.futurecdn.net/8HxuhcFy7xUFVpmjRVsaJh-1920-80.jpg",
-        "publishedAt": "2026-04-06T12:10:00Z",
-        "content": "<ul><li>RansomHouse hit Vivaticket through subsidiary Irec SAS</li><li>Customer data stolen, including names and reservation details</li><li>Attack disrupted ticketing for museums and venues across E… [+2546 chars]",
-        "relevance_score": 7,
-        "summary": "RansomHouse claims responsibility for breaching Vivaticket ticketing platform, affecting Louvre and major cultural institutions.",
-        "meeting_angle": "Pitch Bitdefender as expert source on supply chain ransomware attacks targeting critical SaaS vendors; position threat intelligence and incident response expertise to cultural/tourism sector media and clients.",
-        "formatted_date": "6 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Securelist.com"
-        },
-        "author": "Oleg Kupreev",
-        "title": "The long road to your crypto: ClipBanker and its marathon infection chain",
-        "description": "Threat actors are distributing a Trojan disguised as Proxifier software; through a multi-stage infection chain, it delivers ClipBanker – malware that replaces cryptocurrency wallet addresses in the clipboard.",
-        "url": "https://securelist.com/clipbanker-malware-distributed-via-trojanized-proxifier/119341/",
-        "urlToImage": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/04/09085753/SL-clipbanker-proxifier-featured.jpg",
-        "publishedAt": "2026-04-09T09:30:17Z",
-        "content": "At the start of the year, a certain Trojan caught our eye due to its incredibly long infection chain. In most cases, it kicks off with a web search for “Proxifier”. Proxifiers are speciaized software… [+10836 chars]",
-        "relevance_score": 7,
-        "summary": "ClipBanker trojan distributed via trojanized Proxifier software using multi-stage infection chain to steal cryptocurrency.",
-        "meeting_angle": "Use to inform client messaging around supply chain software compromise risks; position Bitdefender's malware detection and behavior-based EDR capabilities against sophisticated, multi-stage attack chains.",
-        "formatted_date": "9 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Infosecurity Magazine"
-        },
-        "author": "Alessandro  Mascellino",
-        "title": "Bitcoin Depot Reports $3.6m Crypto Theft After System Breach",
-        "description": "Bitcoin Depot has disclosed a cyber-attack that led to the theft of more than 50 Bitcoin, worth $3.66m, after hackers accessed its internal systems",
-        "url": "https://www.infosecurity-magazine.com/news/bitcoin-depot-dollar36m-crypto/",
-        "urlToImage": "https://assets.infosecurity-magazine.com/webpage/og/126ae231-d085-4dc6-8fb0-a1309c7d1fb1.jpg",
-        "publishedAt": "2026-04-09T14:01:00Z",
-        "content": "A cyber-attack on Bitcoin Depot's internal systems has resulted in the theft of more than 50 Bitcoin, valued at approximately $3.66m, according to a recent regulatory filing.\r\nThe company said it det… [+2139 chars]",
-        "relevance_score": 7,
-        "summary": "Bitcoin Depot suffers $3.6m crypto theft following system breach exposing internal infrastructure.",
-        "meeting_angle": "Use to inform messaging around zero trust architecture adoption in fintech/crypto sector; pitch Bitdefender's endpoint and threat intelligence capabilities to financial services media.",
+        "summary": "December 2025 Eurail breach exposed 300,000+ travelers' personal data including names and passport numbers, highlighting vulnerability of travel sector infrastructure.",
+        "meeting_angle": "Use as case study for enterprise breach incident response; position Bitdefender's threat detection capabilities; develop messaging around protecting high-value targets like travel and hospitality sectors from data exfiltration.",
         "formatted_date": "9 April 2026"
       }
     ],
@@ -697,28 +697,11 @@
         "content": "Electric vehicle uptake in Australia is accelerating as anxiety about fuel shortages and rising petrol prices grows.\r\nA month into the ongoing war with Iran, new car sales data released today show th… [+9288 chars]",
         "relevance_score": 6,
         "summary": "Australian EV sales surge amid geopolitical fuel concerns, signalling accelerating transport electrification demand.",
-        "meeting_angle": "Opportunity to position SunWiz as expert source on emerging electricity demand forecasting and grid capacity planning required to support EV charging infrastructure at scale across Australia.",
+        "meeting_angle": "Opportunity to position SunWiz as expert source on the charging infrastructure implications of EV growth for Australia's grid; consider data-driven commentary on solar + EV synergies and home charging trends for media outreach.",
         "formatted_date": "7 April 2026"
       }
     ],
     "sensen": [
-      {
-        "source": {
-          "id": null,
-          "name": "Crypto Briefing"
-        },
-        "author": "Editorial Team",
-        "title": "Garrett Langley: Flock Safety has cleared over a million crimes, the need for integrated neighborhood safety solutions, and how technology is reshaping policing | Cheeky Pint",
-        "description": "Flock Safety's AI-powered cameras revolutionize crime-solving, impacting over half of the US population.\nThe post Garrett Langley: Flock Safety has cleared over a million crimes, the need for integrated neighborhood safety solutions, and how technology is res…",
-        "url": "https://cryptobriefing.com/garrett-langley-flock-safety-has-cleared-over-a-million-crimes-the-need-for-integrated-neighborhood-safety-solutions-and-how-technology-is-reshaping-policing-cheeky-pint/",
-        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/03/03012432/podcast-cover-cheeky-pint-1-800x420.jpg",
-        "publishedAt": "2026-04-11T01:40:09Z",
-        "content": "Flock Safety's AI-powered cameras revolutionize crime-solving, impacting over half of the US population. Key takeaways\r\n<ul><li>The lack of consolidation in neighborhood safety solutions presents a s… [+6243 chars]",
-        "relevance_score": 8,
-        "summary": "Flock Safety's AI-powered camera network has solved over a million crimes, demonstrating the transformative impact of integrated computer vision systems on public safety and policing.",
-        "meeting_angle": "Pitch SenSen Networks as Australian expert alternative to Flock Safety; brief client on competitive landscape and opportunity to position SenSen's video analytics for integrated public safety, crime prevention, and law enforcement partnerships in Australian smart cities and regional deployments.",
-        "formatted_date": "11 April 2026"
-      },
       {
         "source": {
           "id": null,
@@ -732,60 +715,26 @@
         "publishedAt": "2026-04-06T00:00:00Z",
         "content": "<li>Zhang, Y., Zhou, D., Chen, S. et al. Single-image crowd counting via multi-column convolutional neural network. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 589597, … [+14762 chars]",
         "relevance_score": 7,
-        "summary": "Fourier transform-based crowd counting technology addresses a core smart city challenge in real-time population monitoring and traffic flow management.",
-        "meeting_angle": "Pitch SenSen Networks as commentary source to tech media on AI-driven crowd counting innovations; use to support positioning in smart city and traffic management segments.",
+        "summary": "Breakthrough in crowd counting computer vision using domain generalization techniques directly applicable to smart city and transport management scenarios.",
+        "meeting_angle": "Pitch SenSen Networks as thought leader on crowd analytics to tech/infrastructure media; use research to validate proprietary crowd management capabilities for traffic and public transport applications.",
         "formatted_date": "6 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Robohub.org"
+          "name": "Crypto Briefing"
         },
-        "author": "MIT News",
-        "title": "Generative AI improves a wireless vision system that sees through obstructions",
-        "description": "With this new technique, a robot could more accurately detect hidden objects or understand an indoor scene using reflected Wi-Fi signals.",
-        "url": "https://robohub.org/generative-ai-improves-a-wireless-vision-system-that-sees-through-obstructions/",
-        "urlToImage": "https://robohub.org/wp-content/uploads/2026/03/MIT-Scene-Understanding-01-press_0.jpg",
-        "publishedAt": "2026-04-08T04:32:10Z",
-        "content": "MIT researchers utilized specially trained generative AI models to create a system that can complete the shape of hidden 3D objects, like the ones pictured. Credit: Courtesy of the researchers.\r\nBy A… [+7332 chars]",
+        "author": "Editorial Team",
+        "title": "Garrett Langley: Flock Safety has cleared over a million crimes, the need for integrated neighborhood safety solutions, and how technology is reshaping policing | Cheeky Pint",
+        "description": "Flock Safety's AI-powered cameras revolutionize crime-solving, impacting over half of the US population.\nThe post Garrett Langley: Flock Safety has cleared over a million crimes, the need for integrated neighborhood safety solutions, and how technology is res…",
+        "url": "https://cryptobriefing.com/garrett-langley-flock-safety-has-cleared-over-a-million-crimes-the-need-for-integrated-neighborhood-safety-solutions-and-how-technology-is-reshaping-policing-cheeky-pint/",
+        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/03/03012432/podcast-cover-cheeky-pint-1-800x420.jpg",
+        "publishedAt": "2026-04-11T01:40:09Z",
+        "content": "Flock Safety's AI-powered cameras revolutionize crime-solving, impacting over half of the US population. Key takeaways\r\n<ul><li>The lack of consolidation in neighborhood safety solutions presents a s… [+6243 chars]",
         "relevance_score": 7,
-        "summary": "Generative AI enhances wireless vision systems to detect hidden objects and understand scenes through Wi-Fi signal reflection.",
-        "meeting_angle": "Opportunity to position SenSen Networks' computer vision expertise as complementary to emerging multi-modal sensing; pitch thought leadership on AI-powered vision systems overcoming traditional camera limitations in smart city infrastructure.",
-        "formatted_date": "8 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "hello@acmenra.ru",
-        "title": "acmenra-cv added to PyPI",
-        "description": "Production-ready computer vision utilities for ADAS and multi-object tracking",
-        "url": "https://pypi.org/project/acmenra-cv/",
-        "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-        "publishedAt": "2026-04-08T20:39:19Z",
-        "content": "Production-ready computer vision utilities for ADAS, multi-object tracking, and embedded vision systems\r\npipinstallacmenra-cv\r\nOverview\r\nacmenra-cv is a high-performance, type-safe computer vision li… [+6947 chars]",
-        "relevance_score": 7,
-        "summary": "Production-ready computer vision utility library for autonomous vehicle driver assistance systems and multi-object tracking applications.",
-        "meeting_angle": "Pitch SenSen Networks as thought leader on multi-object tracking and ADAS integration to technology trade publications; position client's video analytics capabilities as enabling technology for autonomous vehicle ecosystems and smart transport infrastructure.",
-        "formatted_date": "8 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "SiliconANGLE News"
-        },
-        "author": "Lee Peterson",
-        "title": "Agentic AI will force a rethink at the network edge",
-        "description": "Artificial intelligence is entering a new phase with agentic AI: autonomous systems that perceive, decide, act and learn without constant human oversight, operating independently across distributed environments while collaborating with other agents in real ti…",
-        "url": "https://siliconangle.com/2026/04/10/agentic-ai-will-force-rethink-network-edge/",
-        "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2025/01/AIcomputingattheedge.png",
-        "publishedAt": "2026-04-10T21:03:09Z",
-        "content": "Artificial intelligence is entering a new phase with agentic AI: autonomous systems that perceive, decide, act and learn without constant human oversight, operating independently across distributed e… [+6600 chars]",
-        "relevance_score": 7,
-        "summary": "Agentic AI systems are evolving to operate autonomously at network edge, making distributed decisions without constant human oversight across interconnected environments.",
-        "meeting_angle": "Proactively brief SenSen Networks on agentic AI implications for smart city deployments; develop forward-looking messaging on how autonomous decision-making at edge will enhance real-time traffic management, incident response, and city operations—key differentiator for next-gen platform positioning.",
-        "formatted_date": "10 April 2026"
+        "summary": "Flock Safety's AI-powered camera network has resolved over one million crimes, demonstrating scale and impact of integrated video analytics in public safety.",
+        "meeting_angle": "Pitch SenSen Networks expert commentary on competitive landscape and differentiation in public safety AI to Australian government/security media; angle around how smart city video analytics extends beyond crime-solving to traffic, urban planning, and infrastructure monitoring.",
+        "formatted_date": "11 April 2026"
       },
       {
         "source": {
@@ -800,26 +749,26 @@
         "publishedAt": "2026-04-09T12:18:00Z",
         "content": "NEW YORK, April 09, 2026 (GLOBE NEWSWIRE) -- Roadzen Inc. (Nasdaq: RDZN), a global leader in AI at the convergence of insurance and mobility, today announced that drivebuddyAI, its driver safety and … [+5334 chars]",
         "relevance_score": 7,
-        "summary": "Roadzen's AI-powered road hazard detection technology secures 15 patents and achieves major EU safety certifications, positioning competitive AI video analytics in transport safety.",
-        "meeting_angle": "Monitor Roadzen as competitive threat in road/traffic AI analytics; brief SenSen Networks on differentiation opportunities in real-time hazard detection and geo-mapping for smart city traffic management deployments.",
+        "summary": "Roadzen's drivebuddyAI secures 15 patents for real-time road hazard detection and geo-mapping, achieving major EU and safety certifications.",
+        "meeting_angle": "Opportunity to position SenSen Networks as complementary expert on AI-powered traffic and infrastructure monitoring; consider comparison/differentiation positioning against Roadzen's approach to road condition analytics.",
         "formatted_date": "9 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "ComputerWeekly.com"
+          "name": "GlobeNewswire"
         },
-        "author": "Aaron Tan",
-        "title": "Moscow champions digital sovereignty and AI-driven city management",
-        "description": "By ensuring strategic technology capabilities are developed in-house, megacities can protect their critical infrastructure from cyber threats and global unpredictability, says Moscow government minister",
-        "url": "https://www.computerweekly.com/news/366641555/Moscow-champions-digital-sovereignty-and-AI-driven-city-management",
-        "urlToImage": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Moscow-Russia-1-fotolia.jpg",
-        "publishedAt": "2026-04-10T01:59:00Z",
-        "content": "In Moscow, artificial intelligence (AI) has transcended its science fiction origins to become the backbone of urban management, provided the city retains sovereignty over its technology capabilities.… [+4013 chars]",
+        "author": "TELUS Digital",
+        "title": "UPDATED: Multi-Sensor Data Labeling and AI Data Operations: What Enterprise AV Teams Need to Know",
+        "description": "TELUS Digital outlines why multi-sensor data annotation across LiDAR, radar, and camera fusion is the defining challenge for enterprise AV programs....",
+        "url": "https://www.globenewswire.com/news-release/2026/04/07/3269549/0/en/UPDATED-Multi-Sensor-Data-Labeling-and-AI-Data-Operations-What-Enterprise-AV-Teams-Need-to-Know.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/5ebbd30c-6fd7-43e7-a758-967896ec2b42",
+        "publishedAt": "2026-04-07T18:00:00Z",
+        "content": "<ul><li>Research states the global data annotation tool market is projected to surpass $14 billion by 2034, with autonomous vehicles contributing to the increasing demand</li><li>Why multi-sensor lab… [+13809 chars]",
         "relevance_score": 7,
-        "summary": "Moscow government prioritizes in-house AI-driven city management and digital sovereignty to protect critical infrastructure, signaling shift away from foreign technology dependence.",
-        "meeting_angle": "Proactively brief SenSen Networks on rising sovereign AI/digital sovereignty trend in smart city procurement; position as locally-integrated alternative to foreign vendors in government infrastructure deals.",
-        "formatted_date": "10 April 2026"
+        "summary": "TELUS Digital outlines multi-sensor data labeling and AI data operations as critical challenge for enterprise autonomous vehicle programs using LiDAR, radar, and camera fusion.",
+        "meeting_angle": "Opportunity to position SenSen Networks' video analytics and computer vision expertise as complementary solution to multi-sensor AV data challenges; consider expert commentary on camera-based vs. sensor fusion approaches.",
+        "formatted_date": "7 April 2026"
       },
       {
         "source": {
@@ -834,8 +783,8 @@
         "publishedAt": "2026-04-09T00:00:00Z",
         "content": "<li>Glare, P., Aubrey, K. R. &amp; Myles, P. S. Transition from acute to chronic pain after surgery. Lancet393, 15371546 (2019).\r\nGoogle Scholar \r\n</li><li>Ashraf, A., Yang, A. &amp; Taati, B. In 201… [+7168 chars]",
         "relevance_score": 6,
-        "summary": "Computer vision technology applied to pain detection during medical procedures demonstrates enterprise AI applications in healthcare settings.",
-        "meeting_angle": "Use to inform client messaging around healthcare and enterprise AI verticals; position SenSen Networks' video analytics capability as applicable to medical/procedural monitoring use cases.",
+        "summary": "Computer vision technology is being applied to detect pain indicators during medical procedures, demonstrating enterprise AI applications in healthcare settings.",
+        "meeting_angle": "Use to inform client messaging around healthcare and enterprise AI applications; position SenSen Networks' computer vision expertise as applicable across critical infrastructure and medical sectors.",
         "formatted_date": "9 April 2026"
       },
       {
@@ -851,60 +800,9 @@
         "publishedAt": "2026-04-10T00:00:00Z",
         "content": "<li>Ullah, H., Muhammad, K., Sajjad, M., Baik, S. W. &amp; Kwak, K. S. Machine learning model for group activity recognition based on discriminative interaction contextual relationship. Appl. Sci.11,… [+11380 chars]",
         "relevance_score": 6,
-        "summary": "Advanced computer vision research on group activity recognition using pose and spatial encoding has direct applications to crowd monitoring and public space analytics.",
-        "meeting_angle": "Opportunity to position SenSen Networks as expert source on AI-powered crowd monitoring and activity recognition for smart city and public safety applications.",
+        "summary": "Advanced computer vision research on group activity recognition using pose and spatial encoding could inform smart city crowd management and public safety applications.",
+        "meeting_angle": "Opportunity to position SenSen Networks as expert source on crowd analytics and activity recognition for smart cities and transport hubs; reference emerging research to support capability narratives.",
         "formatted_date": "10 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "help@roboflow.com",
-        "title": "inference 1.2.1",
-        "description": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference.",
-        "url": "https://pypi.org/project/inference/1.2.1/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-07T21:39:30Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]",
-        "relevance_score": 6,
-        "summary": "Roboflow Inference enables easy deployment of computer vision models across diverse devices and environments without ML expertise.",
-        "meeting_angle": "Monitor Roboflow as potential technology partner or competitive threat in accessible CV model deployment; assess if SenSen Networks' proprietary video analytics could differentiate through superior accuracy or domain-specific optimization for smart city use cases.",
-        "formatted_date": "7 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "help@roboflow.com",
-        "title": "inference-gpu 1.2.1",
-        "description": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference.",
-        "url": "https://pypi.org/project/inference-gpu/1.2.1/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-07T21:39:37Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]",
-        "relevance_score": 6,
-        "summary": "Roboflow Inference GPU variant allows rapid computer vision model deployment to hardware without prior ML knowledge.",
-        "meeting_angle": "Track GPU-accelerated CV deployment trends; evaluate positioning SenSen Networks' edge AI capabilities and real-time processing advantages over generic inference frameworks in smart city and traffic management contexts.",
-        "formatted_date": "7 April 2026"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "help@roboflow.com",
-        "title": "inference-core 1.2.1",
-        "description": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference.",
-        "url": "https://pypi.org/project/inference-core/1.2.1/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-07T21:39:33Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]",
-        "relevance_score": 6,
-        "summary": "Roboflow Inference Core framework simplifies computer vision model deployment across multiple device types.",
-        "meeting_angle": "Monitor competitive landscape of democratized CV tools; consider thought leadership piece on why enterprise-grade smart city deployments require specialized, not generic, computer vision platforms.",
-        "formatted_date": "7 April 2026"
       },
       {
         "source": {
@@ -919,9 +817,26 @@
         "publishedAt": "2026-04-09T00:00:00Z",
         "content": "<li>Mharakurwa, E. T. In-service power transformer life time prospects: review and prospects[J]. J. Electr. Comput. Eng.2022 (1), 9519032 (2022).\r\nGoogle Scholar \r\n</li><li>Barkas, D. A., Chronis, I.… [+7517 chars]",
         "relevance_score": 6,
-        "summary": "Study demonstrates AI-powered image recognition and classification for detecting defects in power transmission equipment using lightweight computer vision models.",
-        "meeting_angle": "Use to inform client positioning on AI video analytics applications in critical infrastructure monitoring; opportunity to highlight SenSen's expertise in deploying lightweight CV models for real-world infrastructure asset management and predictive maintenance in utility sector.",
+        "summary": "Study demonstrates lightweight AI model for automated detection and classification of defects in power transmission infrastructure using computer vision.",
+        "meeting_angle": "Use to inform client messaging around AI applications in critical infrastructure monitoring; potential case study angle for SenSen Networks' capabilities in automated asset inspection and maintenance optimization for utilities sector.",
         "formatted_date": "9 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "SiliconANGLE News"
+        },
+        "author": "Lee Peterson",
+        "title": "Agentic AI will force a rethink at the network edge",
+        "description": "Artificial intelligence is entering a new phase with agentic AI: autonomous systems that perceive, decide, act and learn without constant human oversight, operating independently across distributed environments while collaborating with other agents in real ti…",
+        "url": "https://siliconangle.com/2026/04/10/agentic-ai-will-force-rethink-network-edge/",
+        "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2025/01/AIcomputingattheedge.png",
+        "publishedAt": "2026-04-10T21:03:09Z",
+        "content": "Artificial intelligence is entering a new phase with agentic AI: autonomous systems that perceive, decide, act and learn without constant human oversight, operating independently across distributed e… [+6600 chars]",
+        "relevance_score": 6,
+        "summary": "Analysis of emerging agentic AI systems operating autonomously across distributed edge environments, reshaping real-time decision-making at network periphery.",
+        "meeting_angle": "Use to inform client messaging around next-generation smart city architecture; proactively brief SenSen Networks on industry shift toward edge-based autonomous agents and position company's video analytics platform as foundational to agentic AI deployment in cities.",
+        "formatted_date": "10 April 2026"
       },
       {
         "source": {
@@ -936,9 +851,26 @@
         "publishedAt": "2026-04-09T13:00:00Z",
         "content": "AUSTIN, Texas, April 09, 2026 (GLOBE NEWSWIRE) -- Terminal Industries, the only AI-native, computer visionpowered Yard Operating System, today announced the launch of Terminal Missions, a new applica… [+4979 chars]",
         "relevance_score": 6,
-        "summary": "Terminal Industries launches AI-driven workflow automation for yard operations, demonstrating enterprise AI application in logistics and infrastructure optimization.",
-        "meeting_angle": "Use as case study reference when pitching SenSen's enterprise AI capabilities to infrastructure and logistics clients; position SenSen as complementary vision-based analytics solution for yard/asset monitoring.",
+        "summary": "Terminal Industries launches AI-driven workflow automation for yard operations, demonstrating enterprise AI application in logistics and operational efficiency.",
+        "meeting_angle": "Use as case study reference when pitching SenSen's enterprise AI capabilities to infrastructure and logistics operators; highlight how video analytics + workflow automation can drive similar operational gains in transportation hubs and smart city infrastructure.",
         "formatted_date": "9 April 2026"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Observer"
+        },
+        "author": "Neel Khokhani, Neel Khokhani",
+        "title": "Edge A.I. Infrastructure and the Limits of Hyperscale Thinking",
+        "description": "As hyperscale data center investment reaches record levels, infrastructure investor Neel Khokhani argues that the industry's relentless pursuit of concentration is accumulating a form of risk that efficiency metrics were never designed to measure. Khokhani co…",
+        "url": "https://observer.com/2026/04/edge-ai-infrastructure-hyperscale-limits-compute/",
+        "urlToImage": "https://observer.com/wp-content/uploads/sites/2/2026/04/allison-saeng-yeJHJXzqvDo-unsplash.jpg?quality=80",
+        "publishedAt": "2026-04-08T17:15:53Z",
+        "content": "Training A.I. models may still favor aggregation at scale, but deploying that intelligence into factories, hospitals and logistics networks requires something hyperscale campuses were never built to … [+9347 chars]",
+        "relevance_score": 6,
+        "summary": "Industry analysis on edge AI infrastructure risks and the shift away from hyperscale concentration, relevant to distributed smart city deployment models.",
+        "meeting_angle": "Proactively brief SenSen Networks on infrastructure investment trends; position edge-deployed video analytics as a solution to hyperscale concentration risks, particularly for distributed smart city and traffic management deployments across multiple sites.",
+        "formatted_date": "8 April 2026"
       },
       {
         "source": {
@@ -953,26 +885,26 @@
         "publishedAt": "2026-04-07T08:02:00Z",
         "content": "Dublin, April 07, 2026 (GLOBE NEWSWIRE) -- The \"Middle East Digital Transformation - Market Share Analysis, Industry Trends &amp; Statistics, Growth Forecasts (2026-2031)\" has been added to ResearchA… [+4874 chars]",
         "relevance_score": 6,
-        "summary": "Middle East digital transformation market forecast highlights smart cities and AI infrastructure as growth drivers, powered by government initiatives and sovereign wealth funding.",
-        "meeting_angle": "Opportunity to position SenSen Networks as expert source on smart city AI deployments and government technology procurement in emerging markets; consider regional expansion messaging.",
+        "summary": "Middle East digital transformation market forecast highlights smart cities and AI infrastructure as key growth areas driven by government mega-initiatives and sovereign wealth funding.",
+        "meeting_angle": "Use to inform client messaging around international smart city expansion opportunities; proactively brief SenSen Networks on geographic expansion strategy and positioning in Middle East government procurement cycles.",
         "formatted_date": "7 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "GlobeNewswire"
+          "name": "ComputerWeekly.com"
         },
-        "author": "TELUS Digital",
-        "title": "UPDATED: Multi-Sensor Data Labeling and AI Data Operations: What Enterprise AV Teams Need to Know",
-        "description": "TELUS Digital outlines why multi-sensor data annotation across LiDAR, radar, and camera fusion is the defining challenge for enterprise AV programs....",
-        "url": "https://www.globenewswire.com/news-release/2026/04/07/3269549/0/en/UPDATED-Multi-Sensor-Data-Labeling-and-AI-Data-Operations-What-Enterprise-AV-Teams-Need-to-Know.html",
-        "urlToImage": "https://ml.globenewswire.com/Resource/Download/5ebbd30c-6fd7-43e7-a758-967896ec2b42",
-        "publishedAt": "2026-04-07T18:00:00Z",
-        "content": "<ul><li>Research states the global data annotation tool market is projected to surpass $14 billion by 2034, with autonomous vehicles contributing to the increasing demand</li><li>Why multi-sensor lab… [+13809 chars]",
+        "author": "Aaron Tan",
+        "title": "Moscow champions digital sovereignty and AI-driven city management",
+        "description": "By ensuring strategic technology capabilities are developed in-house, megacities can protect their critical infrastructure from cyber threats and global unpredictability, says Moscow government minister",
+        "url": "https://www.computerweekly.com/news/366641555/Moscow-champions-digital-sovereignty-and-AI-driven-city-management",
+        "urlToImage": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Moscow-Russia-1-fotolia.jpg",
+        "publishedAt": "2026-04-10T01:59:00Z",
+        "content": "In Moscow, artificial intelligence (AI) has transcended its science fiction origins to become the backbone of urban management, provided the city retains sovereignty over its technology capabilities.… [+4013 chars]",
         "relevance_score": 6,
-        "summary": "TELUS Digital outlines multi-sensor data labeling challenges for autonomous vehicle programs, addressing camera, LiDAR, and radar fusion requirements.",
-        "meeting_angle": "Use to inform client messaging around SenSen Networks' video analytics capabilities in multi-modal sensor environments; consider positioning as data quality/annotation partner for enterprise AV programs.",
-        "formatted_date": "7 April 2026"
+        "summary": "Moscow champions in-house AI-driven city management to ensure digital sovereignty and protect critical infrastructure from cyber threats.",
+        "meeting_angle": "Use to inform client messaging around sovereign AI and locally-deployed smart city solutions; brief SenSen Networks on positioning advantages as Australian-based provider for government infrastructure protection narratives.",
+        "formatted_date": "10 April 2026"
       },
       {
         "source": {
@@ -987,8 +919,8 @@
         "publishedAt": "2026-04-07T04:02:00Z",
         "content": "Abu Dhabi has taken a step towards global artificial intelligence (AI) with Falcon Perception, a multimodal model that enables machines to efficiently see, read and interpret the physical world.\r\nDev… [+4000 chars]",
         "relevance_score": 6,
-        "summary": "UAE's Technology Innovation Institute launches Falcon Perception, a compact multimodal AI model aimed at achieving regional AI independence and efficient real-world deployment.",
-        "meeting_angle": "Monitor UAE sovereign AI initiatives as competitive/partnership opportunity; brief SenSen Networks on regional shift toward locally-developed AI capabilities and smart city modernization in Gulf markets.",
+        "summary": "UAE's Technology Innovation Institute launches Falcon Perception, a compact multimodal AI model signalling shift toward efficient, real-world AI deployment over large global models.",
+        "meeting_angle": "Opportunity to position SenSen Networks' efficient, real-world focused AI video analytics approach as aligned with emerging sovereign AI and edge deployment trends; benchmark against global AI provider strategies.",
         "formatted_date": "7 April 2026"
       },
       {
@@ -996,54 +928,54 @@
           "id": null,
           "name": "Pypi.org"
         },
-        "author": "help@roboflow.com",
-        "title": "inference-cli 1.2.1",
-        "description": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference CLI.",
-        "url": "https://pypi.org/project/inference-cli/1.2.1/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-07T21:39:32Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]",
+        "author": "hello@acmenra.ru",
+        "title": "acmenra-cv added to PyPI",
+        "description": "Production-ready computer vision utilities for ADAS and multi-object tracking",
+        "url": "https://pypi.org/project/acmenra-cv/",
+        "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+        "publishedAt": "2026-04-08T20:39:19Z",
+        "content": "Production-ready computer vision utilities for ADAS, multi-object tracking, and embedded vision systems\r\npipinstallacmenra-cv\r\nOverview\r\nacmenra-cv is a high-performance, type-safe computer vision li… [+6947 chars]",
         "relevance_score": 5,
-        "summary": "Roboflow Inference CLI provides command-line interface for accessible computer vision model deployment.",
-        "meeting_angle": "Assess developer tooling trends in CV deployment; explore if SenSen Networks should highlight developer-friendly integration approaches in smart city and traffic management sales narratives.",
-        "formatted_date": "7 April 2026"
+        "summary": "Production-ready computer vision utilities released for advanced driver assistance systems and multi-object tracking applications.",
+        "meeting_angle": "Opportunity to position SenSen Networks as expert source on enterprise-grade computer vision deployment; relevant to traffic management and transportation safety messaging around ADAS integration and real-world tracking solutions.",
+        "formatted_date": "8 April 2026"
       },
       {
         "source": {
           "id": null,
-          "name": "Observer"
+          "name": "GlobeNewswire"
         },
-        "author": "Neel Khokhani, Neel Khokhani",
-        "title": "Edge A.I. Infrastructure and the Limits of Hyperscale Thinking",
-        "description": "As hyperscale data center investment reaches record levels, infrastructure investor Neel Khokhani argues that the industry's relentless pursuit of concentration is accumulating a form of risk that efficiency metrics were never designed to measure. Khokhani co…",
-        "url": "https://observer.com/2026/04/edge-ai-infrastructure-hyperscale-limits-compute/",
-        "urlToImage": "https://observer.com/wp-content/uploads/sites/2/2026/04/allison-saeng-yeJHJXzqvDo-unsplash.jpg?quality=80",
-        "publishedAt": "2026-04-08T17:15:53Z",
-        "content": "Training A.I. models may still favor aggregation at scale, but deploying that intelligence into factories, hospitals and logistics networks requires something hyperscale campuses were never built to … [+9347 chars]",
+        "author": "ClimateTech Connect",
+        "title": "ClimateTech Connect 2026 Concludes, Driving Urgency Around Climate Risk as Business Risk",
+        "description": "Second Annual Conference Draws 500+ Leaders Across Insurance, Finance, Policy, and Technology; Tenax ai Wins Pitch Competition Second Annual Conference Draws 500+ Leaders Across Insurance, Finance, Policy, and Technology; Tenax ai Wins Pitch Competition",
+        "url": "https://www.globenewswire.com/news-release/2026/04/09/3271471/0/en/ClimateTech-Connect-2026-Concludes-Driving-Urgency-Around-Climate-Risk-as-Business-Risk.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/d4e89ca8-e31b-4101-9c55-0346ee64596a",
+        "publishedAt": "2026-04-09T21:55:00Z",
+        "content": "WASHINGTON, April 09, 2026 (GLOBE NEWSWIRE) -- ClimateTech Connect\r\n, the premier cross-sector conference uniting climate risk experts, policy makers, insurance, banking and real estate leaders, has … [+4936 chars]",
         "relevance_score": 5,
-        "summary": "Infrastructure investor discusses edge AI deployment risks and the concentrated nature of hyperscale data center investment, relevant to distributed smart city AI architectures.",
-        "meeting_angle": "Brief SenSen Networks on emerging narrative around edge AI vs. hyperscale trade-offs; opportunity to position edge-deployed video analytics as risk-mitigation strategy in smart city infrastructure pitches.",
-        "formatted_date": "8 April 2026"
+        "summary": "ClimateTech conference showcases AI-driven risk management and business case for climate tech, signalling investor appetite for AI solutions addressing infrastructure resilience.",
+        "meeting_angle": "Scout emerging narratives around AI for infrastructure resilience; consider positioning SenSen's smart city and traffic management solutions as supporting climate adaptation and urban resilience strategies in future media outreach.",
+        "formatted_date": "9 April 2026"
       }
     ],
     "sunshine_hydro": [],
     "discovery_consulting": [
       {
         "source": {
-          "id": null,
-          "name": "iTnews"
+          "id": "abc-news-au",
+          "name": "ABC News (AU)"
         },
-        "author": null,
-        "title": "Bendigo Bank IT restructure continues with Infosys, Genpact deals",
-        "description": "\"Will lead to workforce changes\".",
-        "url": "https://www.itnews.com.au/news/bendigo-bank-it-restructure-continues-with-infosys-genpact-deals-624882",
-        "urlToImage": "https://i.nextmedia.com.au/News/bendigo_and_adelaide_bank.jpg",
-        "publishedAt": "2026-04-08T23:31:00Z",
-        "content": "Bendigo and Adelaide Bank has revealed a major shake-up of its technology operations, signing a seven-year IT service delivery deal with Infosys and six-year deal with Genpact.\r\nThe bank said in an A… [+1524 chars]",
+        "author": "Ian Verrender",
+        "title": "A world without work. How do we survive the AI revolution?",
+        "description": "The wave of change from artificial intelligence rolling across the corporate landscape is going largely unnoticed as attention understandably shifts to an escalating war.",
+        "url": "https://www.abc.net.au/news/2026-04-07/how-ai-is-already-reshaping-the-workforce/106535204",
+        "urlToImage": "https://live-production.wcms.abc-cdn.net.au/9e2e1415b8211b14e23b0ed34bd6268d?impolicy=wcms_watermark_news&cropH=608&cropW=1080&xPos=0&yPos=56&width=862&height=485&imformat=generic",
+        "publishedAt": "2026-04-06T18:39:12Z",
+        "content": "As the storm clouds over the Middle East continue to darken, attention understandably has shifted to an escalating war with Iran that is threatening to rupture global energy supplies and plunge the w… [+7440 chars]",
         "relevance_score": 7,
-        "summary": "Bendigo Bank outsources major IT functions to Infosys and Genpact, signalling shift in banking sector's technology and operating model strategy.",
-        "meeting_angle": "Use to inform client messaging around digital transformation and operating model restructuring in financial services; opportunity to position Discovery Consulting as advisor on technology partnership strategy and workforce transition planning for banking clients.",
-        "formatted_date": "8 April 2026"
+        "summary": "AI-driven workplace transformation is accelerating across corporate Australia but receiving insufficient strategic attention from leadership and boards.",
+        "meeting_angle": "Opportunity to pitch Discovery Consulting as thought leadership source on AI adoption strategy, workforce transition planning, and board-level governance; position client as guide for organisations unprepared for AI-driven disruption.",
+        "formatted_date": "6 April 2026"
       },
       {
         "source": {
@@ -1058,30 +990,30 @@
         "publishedAt": "2026-04-08T03:31:58Z",
         "content": "Truck drivers and business operators say they have reached \"crisis point\" and are calling for major retailers and other clients to bear more of the cost of ongoing fuel price pressures.\r\nAn emergency… [+3648 chars]",
         "relevance_score": 6,
-        "summary": "Trucking industry faces existential crisis from fuel costs, triggering emergency Fair Work Commission intervention and supply chain pressure.",
-        "meeting_angle": "Opportunity to position Discovery Consulting as expert source on supply chain resilience and cost management strategies for transport/logistics sector; consider proactive outreach to industry bodies about transformation advisory services.",
+        "summary": "Transport industry faces existential crisis from fuel costs, with unions and employers seeking supply chain intervention at Fair Work Commission hearing.",
+        "meeting_angle": "Opportunity to position Discovery Consulting as expert source on supply chain resilience and cost management strategies for SME operators in logistics sector; consider proactive outreach to transport industry bodies for advisory engagement.",
         "formatted_date": "8 April 2026"
       },
       {
         "source": {
-          "id": "abc-news-au",
-          "name": "ABC News (AU)"
+          "id": null,
+          "name": "iTnews"
         },
-        "author": "Ian Verrender",
-        "title": "A world without work. How do we survive the AI revolution?",
-        "description": "The wave of change from artificial intelligence rolling across the corporate landscape is going largely unnoticed as attention understandably shifts to an escalating war.",
-        "url": "https://www.abc.net.au/news/2026-04-07/how-ai-is-already-reshaping-the-workforce/106535204",
-        "urlToImage": "https://live-production.wcms.abc-cdn.net.au/9e2e1415b8211b14e23b0ed34bd6268d?impolicy=wcms_watermark_news&cropH=608&cropW=1080&xPos=0&yPos=56&width=862&height=485&imformat=generic",
-        "publishedAt": "2026-04-06T18:39:12Z",
-        "content": "As the storm clouds over the Middle East continue to darken, attention understandably has shifted to an escalating war with Iran that is threatening to rupture global energy supplies and plunge the w… [+7440 chars]",
+        "author": null,
+        "title": "Bendigo Bank IT restructure continues with Infosys, Genpact deals",
+        "description": "\"Will lead to workforce changes\".",
+        "url": "https://www.itnews.com.au/news/bendigo-bank-it-restructure-continues-with-infosys-genpact-deals-624882",
+        "urlToImage": "https://i.nextmedia.com.au/News/bendigo_and_adelaide_bank.jpg",
+        "publishedAt": "2026-04-08T23:31:00Z",
+        "content": "Bendigo and Adelaide Bank has revealed a major shake-up of its technology operations, signing a seven-year IT service delivery deal with Infosys and six-year deal with Genpact.\r\nThe bank said in an A… [+1524 chars]",
         "relevance_score": 5,
-        "summary": "AI transformation is reshaping corporate workforce and operations, yet remains under-discussed in strategic planning despite urgency.",
-        "meeting_angle": "Proactively position Discovery Consulting as thought leader on AI-driven organisational transformation; consider authored piece or expert commentary on preparing workforces and business models for AI disruption.",
-        "formatted_date": "6 April 2026"
+        "summary": "Bendigo Bank undertakes major IT restructure with outsourcing partners Infosys and Genpact, signalling workforce and operational transformation.",
+        "meeting_angle": "Use to inform client messaging around digital transformation and workforce planning; illustrates trend of major Australian firms restructuring IT operations—potential case study angle for Discovery Consulting's transformation advisory positioning.",
+        "formatted_date": "8 April 2026"
       }
     ]
   },
-  "last_refresh": "12 April 2026, 02:00 PM",
+  "last_refresh": "12 April 2026, 02:08 PM",
   "status": {
     "bitdefender": {
       "fetched": 99,
@@ -1095,7 +1027,7 @@
     },
     "sensen": {
       "fetched": 100,
-      "processed": 19,
+      "processed": 15,
       "error": null
     },
     "sunshine_hydro": {
