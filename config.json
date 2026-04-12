@@ -297,6 +297,293 @@
         "sapinsider.org",
         "zdnet.com.au"
       ]
+    },
+
+    {
+      "id": "credible_accounting",
+      "name": "C.A",
+      "industry": "Accounting & Business Advisory",
+      "description": "Australian accounting and bookkeeping firm providing accounting, bookkeeping, and business advisory services to small and medium-sized businesses.",
+      "context": "Credible Accounting serves Australian SMEs with bookkeeping, accounting, and advisory services. Their clients are small business owners navigating ATO compliance, payroll, GST, BAS, and superannuation. They use cloud accounting software (Xero, MYOB) and position themselves as trusted advisors for business owners who want more than just tax lodgement. News about ATO policy changes, tax law updates, superannuation reforms, GST changes, and small business policy directly affects their clients and creates content and commentary opportunities. Australian economic conditions, business formation rates, and SME sentiment also shape their pipeline. Bookkeeping automation and accounting software developments affect their service delivery model.",
+      "scope": "australia",
+      "color": "#10b981",
+      "domain": "credibleaccounting.com.au",
+      "initials": "CA",
+      "keywords": [
+        "ATO tax Australia",
+        "small business accounting Australia",
+        "Xero accounting",
+        "MYOB Australia",
+        "superannuation changes",
+        "GST Australia",
+        "payroll compliance Australia",
+        "BAS bookkeeping",
+        "small business tax",
+        "Australian tax law",
+        "SME business Australia",
+        "accounting software"
+      ],
+      "topics": [
+        "ATO policy changes and tax updates",
+        "Australian tax law and Budget measures",
+        "superannuation guarantee and reform",
+        "GST and BAS compliance",
+        "payroll tax and compliance Australia",
+        "small business grants and support programs",
+        "Xero MYOB and accounting software updates",
+        "bookkeeping technology and automation",
+        "SME business trends and economic conditions",
+        "Australian business formation and closures",
+        "Fair Work wage and award updates",
+        "cash flow and working capital for small business",
+        "ATO audit activity and compliance focus areas",
+        "business advisory and financial planning for SMEs"
+      ],
+      "relevance_context": "Score stories about ATO updates, tax law changes, superannuation, GST, payroll compliance, and SME business conditions as 7–9 — these directly affect Credible's client base and create commentary opportunities. Score stories naming Credible Accounting or directly quoting their team at 10.",
+      "exclude_topics": [
+        "large corporate tax affairs",
+        "international tax havens",
+        "ASX listed company financials",
+        "entertainment and sport",
+        "personal investment unrelated to small business"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "ato.gov.au",
+        "afr.com",
+        "smh.com.au",
+        "smartcompany.com.au",
+        "businessinsider.com.au",
+        "abc.net.au"
+      ]
+    },
+
+    {
+      "id": "industrias",
+      "name": "Industrias",
+      "industry": "Solar Asset Management & O&M",
+      "description": "Australian renewable energy maintenance and monitoring company specialising in operations and maintenance (O&M) for commercial solar installations. Co-founder Daniel Lazarus spoke at SXSW Sydney. Notable partnership with Microgrid Power covering 37 shopping centres with 90 more planned.",
+      "context": "Industrias is addressing a major gap in the Australian commercial solar market: the $1.35 billion annual loss caused by poorly maintained solar assets (as published in PV Magazine). Co-founder Daniel Lazarus is an emerging industry voice who spoke at SXSW Sydney, giving the company a profile beyond technical O&M. Their partnership with Microgrid Power covers commercial solar installations across 37 shopping centres (90+ more planned), making them a significant player in retail property solar maintenance. Their target clients are commercial property owners, retail centre operators, and renewable energy asset owners who have installed solar but lack the monitoring and maintenance expertise to maximise performance. News about solar asset underperformance, commercial solar O&M standards, PV system failures, insurance requirements for solar assets, and retail property energy costs are all directly relevant.",
+      "scope": "australia",
+      "color": "#f97316",
+      "domain": "industrias.com.au",
+      "initials": "IN",
+      "keywords": [
+        "solar maintenance Australia",
+        "commercial solar O&M",
+        "solar asset management",
+        "PV system performance",
+        "solar monitoring",
+        "renewable energy maintenance",
+        "solar failures Australia",
+        "Microgrid Power",
+        "commercial property solar",
+        "solar safety compliance",
+        "solar degradation",
+        "SXSW Sydney energy"
+      ],
+      "topics": [
+        "commercial solar operations and maintenance",
+        "solar asset management and monitoring",
+        "PV system performance and degradation",
+        "solar installation failures and safety issues",
+        "solar maintenance standards and compliance",
+        "commercial property renewable energy",
+        "retail shopping centre solar energy",
+        "solar insurance and liability",
+        "Australian solar industry quality standards",
+        "renewable energy asset underperformance",
+        "solar O&M market growth and investment",
+        "SXSW Sydney and energy innovation",
+        "solar monitoring technology"
+      ],
+      "relevance_context": "Score stories about commercial solar maintenance, PV asset performance, solar failures, O&M market trends, and retail/commercial property solar as 7–9 — these define Industrias's market and create positioning opportunities. Score Daniel Lazarus mentions, Microgrid Power partnership news, or direct Industrias coverage at 10.",
+      "exclude_topics": [
+        "residential rooftop solar consumer news",
+        "utility-scale wind",
+        "coal and gas",
+        "unrelated SXSW content"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "pv-magazine-australia.com",
+        "reneweconomy.com.au",
+        "solarchoice.net.au",
+        "itnews.com.au",
+        "afr.com",
+        "theaustralian.com.au"
+      ]
+    },
+
+    {
+      "id": "incorp_advisory",
+      "name": "InCorp Advisory",
+      "industry": "Corporate Advisory & Business Establishment",
+      "description": "Full-service business advisory firm (an Ascentium company) helping international companies establish and grow in Australia. Specialises in company incorporation, governance, compliance, financial structuring, and capital decisions. Key markets include biotech, agritech, and global innovators entering Australia.",
+      "context": "InCorp Advisory (part of the Ascentium group, with key people Glenn Rhynehart, Bailey Phillips, Alex Simmons, and Jonathan Englert) focuses on helping international businesses — especially biotech, agritech, and technology companies — navigate the process of entering the Australian market. Services span company incorporation, ASIC compliance, corporate governance, financial structuring, and capital raising decisions. Their target clients are global companies that see Australia as a growth market but lack local expertise. News about foreign direct investment in Australia, changes to Australian corporate law, ASIC updates, biotech and agritech investment, and global companies expanding into Australia are all pipeline-relevant. The startup and innovation ecosystem in Australia also creates referral opportunities.",
+      "scope": "australia_global",
+      "color": "#8b5cf6",
+      "domain": "incorpadvisory.com.au",
+      "initials": "IA",
+      "keywords": [
+        "foreign investment Australia",
+        "company incorporation Australia",
+        "expanding to Australia",
+        "ASIC compliance",
+        "biotech Australia investment",
+        "agritech Australia",
+        "corporate governance Australia",
+        "business establishment Australia",
+        "Ascentium",
+        "Australian business law",
+        "startup ecosystem Australia",
+        "international business Australia"
+      ],
+      "topics": [
+        "foreign direct investment into Australia",
+        "international companies expanding to Australia",
+        "company incorporation and ASIC regulation",
+        "Australian corporate governance and compliance",
+        "biotech investment and expansion in Australia",
+        "agritech companies and investment in Australia",
+        "financial structuring and capital decisions",
+        "Australian startup and innovation ecosystem",
+        "global business entering APAC markets",
+        "Australian business law and regulatory changes",
+        "trade and investment policy Australia",
+        "corporate advisory and business advisory market",
+        "Ascentium group news"
+      ],
+      "relevance_context": "Score stories about foreign investment into Australia, international companies expanding to Australia, biotech/agritech investment, ASIC or corporate law changes, and startup ecosystem news as 7–9 — these are InCorp's lead generation landscape. Score direct mentions of InCorp Advisory or Ascentium at 10.",
+      "exclude_topics": [
+        "domestic Australian SME news unrelated to investment",
+        "retail consumer",
+        "entertainment",
+        "sports"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "afr.com",
+        "theaustralian.com.au",
+        "smh.com.au",
+        "innovationaus.com",
+        "businessinsider.com.au",
+        "startupaus.org"
+      ]
+    },
+
+    {
+      "id": "4d_systems",
+      "name": "4D Systems",
+      "industry": "Embedded Systems & HMI Technology",
+      "description": "Australian embedded systems and HMI (human-machine interface) display technology company producing touchscreen displays, HMI modules, and embedded display solutions for engineers and OEMs globally. Maker of Workshop4 and Workshop5 IDE software.",
+      "context": "4D Systems is an Australian hardware technology company that makes embedded display modules and touchscreen HMI solutions used by engineers and OEM manufacturers worldwide. Their Workshop4 and Workshop5 IDEs are the software development environments for their display products. Their products are used in diverse applications including door automation (Summit Automation), space and COTS (commercial off-the-shelf) systems, and industrial control. Target audience is hardware engineers, electronics designers, and OEM manufacturers. Their media targets are specialist engineering publications: EE Times, Embedded.com, All About Circuits, and electronics/engineering press. News about embedded systems trends, IoT hardware, industrial automation, HMI technology developments, and electronics manufacturing is relevant. They compete globally so international electronics engineering news matters as much as Australian.",
+      "scope": "global",
+      "color": "#ef4444",
+      "domain": "4dsystems.com.au",
+      "initials": "4D",
+      "keywords": [
+        "embedded systems",
+        "HMI display technology",
+        "touchscreen HMI",
+        "OEM electronics",
+        "industrial automation display",
+        "IoT hardware",
+        "microcontroller display",
+        "COTS electronics",
+        "embedded display module",
+        "electronics engineering",
+        "industrial control HMI",
+        "Workshop IDE embedded"
+      ],
+      "topics": [
+        "embedded systems technology and trends",
+        "HMI and touchscreen display innovations",
+        "IoT hardware and connected devices",
+        "industrial automation and control systems",
+        "OEM electronics manufacturing",
+        "COTS technology for space and defence",
+        "electronics engineering news",
+        "microcontroller and embedded processor trends",
+        "door automation and building technology",
+        "electronics design tools and IDEs",
+        "Industry 4.0 and smart manufacturing",
+        "Australian electronics and hardware companies",
+        "global electronics manufacturing trends"
+      ],
+      "relevance_context": "Score stories about embedded systems, HMI displays, IoT hardware, industrial automation, OEM electronics, and COTS technology as 7–9 — these are the markets 4D Systems sells into. Score direct mentions of 4D Systems, Workshop4/Workshop5, or their specific customer segments (space, door automation, industrial) at 9–10.",
+      "exclude_topics": [
+        "consumer smartphones and tablets",
+        "software-only applications",
+        "social media technology",
+        "entertainment electronics"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "embedded.com",
+        "eetimes.com",
+        "allaboutcircuits.com",
+        "electronicdesign.com",
+        "hackster.io",
+        "electronicsweekly.com"
+      ]
+    },
+
+    {
+      "id": "wild_tech",
+      "name": "Wild Tech",
+      "industry": "Digital Transformation & ERP",
+      "description": "Technology solutions provider specialising in digital transformation for manufacturers and enterprises in Australia and Singapore. Services include ERP implementation, Microsoft Dynamics 365, CRM, cloud migration, data analytics, and legacy IT modernisation. Recent C-suite expansion in 2025.",
+      "context": "Wild Tech helps manufacturers and enterprises modernise their technology stacks across Australia and Singapore. Their flagship offering is Microsoft Dynamics 365 implementation and integration (ERP and CRM), with a focus on manufacturers undergoing digital transformation. Key client work includes Metro Department Store Singapore (Microsoft Dynamics 365). In 2025 they made four C-suite appointments including a new CRO (Dom), alongside existing leaders Sheryl, Phil, and Tania — signalling growth and a push into new markets. News about ERP adoption, Microsoft Dynamics 365 updates, digital transformation in manufacturing, cloud migration, Industry 4.0, and the Singapore technology market is directly relevant. Legacy IT modernisation is a key sales conversation topic in their target market.",
+      "scope": "australia_global",
+      "color": "#0ea5e9",
+      "domain": "wildtech.com.au",
+      "initials": "WT",
+      "keywords": [
+        "Microsoft Dynamics 365",
+        "ERP implementation Australia",
+        "digital transformation manufacturing",
+        "cloud migration Australia",
+        "CRM implementation",
+        "legacy IT modernisation",
+        "Industry 4.0 Australia",
+        "Singapore ERP",
+        "enterprise software Australia",
+        "manufacturing technology",
+        "business process automation",
+        "Microsoft partner Australia"
+      ],
+      "topics": [
+        "Microsoft Dynamics 365 updates and releases",
+        "ERP implementation and adoption in Australia",
+        "digital transformation in manufacturing",
+        "cloud migration for enterprises",
+        "CRM technology and sales enablement",
+        "legacy IT modernisation strategies",
+        "Industry 4.0 and smart manufacturing",
+        "Singapore enterprise technology market",
+        "Microsoft partner ecosystem news",
+        "data analytics and business intelligence",
+        "manufacturing technology investment Australia",
+        "APAC enterprise software market",
+        "business process automation and efficiency"
+      ],
+      "relevance_context": "Score stories about Microsoft Dynamics 365, ERP adoption, digital transformation in manufacturing, Industry 4.0, cloud migration, and the Singapore tech market as 7–9 — these are Wild Tech's core service areas. Score direct Wild Tech mentions, Metro Department Store, or Microsoft Dynamics 365 implementation case studies at 9–10.",
+      "exclude_topics": [
+        "consumer technology and gadgets",
+        "social media platforms",
+        "entertainment software",
+        "residential property"
+      ],
+      "exclude_sources": [],
+      "priority_sources": [
+        "itnews.com.au",
+        "zdnet.com",
+        "afr.com",
+        "computerworld.com.au",
+        "theregister.com",
+        "techinasia.com"
+      ]
     }
 
   ]
