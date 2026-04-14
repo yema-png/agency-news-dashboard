@@ -137,4 +137,105 @@
   </button>
 </div>
 {% endif %}
+
+<!-- ── Feed configuration panel ── -->
+<section class="feed-config-panel">
+
+  <div class="feed-config-header">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14">
+      <circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.42 1.42M11.53 11.53l1.42 1.42M3.05 12.95l1.42-1.42M11.53 4.47l1.42-1.42" stroke-linecap="round"/>
+    </svg>
+    <h2 class="feed-config-title">How this feed is configured</h2>
+    <span class="feed-internal-badge">Internal</span>
+  </div>
+
+  <div class="feed-config-grid">
+
+    <!-- LEFT: Keywords + Topics -->
+    <div class="feed-config-col">
+      <div class="feed-config-block">
+        <div class="feed-block-label">Keywords</div>
+        <div class="feed-keywords">
+          {% for kw in client.keywords %}
+          <span class="feed-keyword-tag">{{ kw }}</span>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="feed-config-block">
+        <div class="feed-block-label">Topics tracked</div>
+        <ul class="feed-topic-list">
+          {% for topic in client.topics %}
+          <li>{{ topic }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <!-- RIGHT: Settings + Context + Diagnostics -->
+    <div class="feed-config-col">
+
+      <div class="feed-config-block">
+        <div class="feed-block-label">Feed settings</div>
+        <div class="feed-settings-rows">
+          <div class="feed-setting-row">
+            <span class="feed-setting-key">Scope</span>
+            <span class="feed-setting-val">{{ 'Global' if client.scope == 'global' else 'Australia' if client.scope == 'australia' else 'Australia &amp; Global' }}</span>
+          </div>
+          <div class="feed-setting-row">
+            <span class="feed-setting-key">Min. relevance score</span>
+            <span class="feed-setting-val">{{ settings.min_relevance_score }} / 10</span>
+          </div>
+          <div class="feed-setting-row">
+            <span class="feed-setting-key">Lookback window</span>
+            <span class="feed-setting-val">{{ settings.days_back }} days</span>
+          </div>
+        </div>
+      </div>
+
+      {% if client.relevance_context %}
+      <div class="feed-config-block">
+        <div class="feed-block-label">Relevance context</div>
+        <p class="feed-context-text">{{ client.relevance_context }}</p>
+      </div>
+      {% endif %}
+
+      <div class="feed-config-block feed-diagnostics-block">
+        <div class="feed-block-label">Feed diagnostics</div>
+        {% if client_status %}
+        <div class="feed-diag-rows">
+          <div class="feed-diag-row">
+            <span class="feed-diag-key">Raw articles fetched</span>
+            <span class="feed-diag-num">{{ client_status.fetched }}</span>
+          </div>
+          <div class="feed-diag-row">
+            <span class="feed-diag-key">Shown after relevance filter</span>
+            <span class="feed-diag-num {% if client_status.processed == 0 %}is-zero{% endif %}">{{ client_status.processed }}</span>
+          </div>
+        </div>
+        {% if client_status.error %}
+        <div class="feed-diag-reason is-error">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13" style="flex-shrink:0;margin-top:1px">
+            <circle cx="7" cy="7" r="5.5"/><path d="M7 4.5v3M7 9v.5" stroke-linecap="round"/>
+          </svg>
+          <span>{{ client_status.error }}</span>
+        </div>
+        {% elif client_status.fetched == 0 %}
+        <div class="feed-diag-reason">
+          No articles returned by the API — try broadening keywords or checking your NewsAPI quota.
+        </div>
+        {% elif client_status.processed == 0 %}
+        <div class="feed-diag-reason">
+          All {{ client_status.fetched }} fetched articles scored below {{ settings.min_relevance_score }}/10 and were filtered out by Claude.
+        </div>
+        {% endif %}
+        {% else %}
+        <p class="feed-diag-empty">No refresh data yet — run a refresh to see diagnostics.</p>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+
+</section>
 {% endblock %}

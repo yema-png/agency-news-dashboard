@@ -115,6 +115,8 @@ def client_page(client_id):
         client=client,
         articles=articles,
         last_refresh=cache_data.get("last_refresh"),
+        settings=config.get("default_settings", {}),
+        client_status=cache_data.get("status", {}).get(client_id),
     )
 
 
