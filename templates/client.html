@@ -208,6 +208,17 @@
             <span class="feed-diag-key">Raw articles fetched</span>
             <span class="feed-diag-num">{{ client_status.fetched }}</span>
           </div>
+          {% if 'fetched_newsapi' in client_status %}
+          <div class="feed-diag-row">
+            <span class="feed-diag-key">Source mix</span>
+            <span class="feed-diag-mix">
+              {%- if client_status.fetched_newsapi %}NewsAPI {{ client_status.fetched_newsapi }}{% endif -%}
+              {%- if client_status.fetched_newsapi and client_status.fetched_rss %} &middot; {% endif -%}
+              {%- if client_status.fetched_rss %}Google RSS {{ client_status.fetched_rss }}{% endif -%}
+              {%- if not client_status.fetched_newsapi and not client_status.fetched_rss %}—{% endif -%}
+            </span>
+          </div>
+          {% endif %}
           <div class="feed-diag-row">
             <span class="feed-diag-key">Shown after relevance filter</span>
             <span class="feed-diag-num {% if client_status.processed == 0 %}is-zero{% endif %}">{{ client_status.processed }}</span>

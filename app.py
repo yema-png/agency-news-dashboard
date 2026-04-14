@@ -8,6 +8,7 @@ Setup:
   4. Open http://localhost:5000
 """
 
+from collections import Counter
 from flask import Flask, render_template, jsonify, redirect, url_for, request
 import json
 import os
@@ -148,9 +149,16 @@ def refresh_all():
                 articles = fetcher.fetch_with_fallback(client, config)
                 processed = processor.process_articles(articles, client) if articles else []
                 cache_data["cache"][cid] = processed
-                status[cid] = {"fetched": len(articles), "processed": len(processed), "error": None}
+                counts = Counter(a.get("_source_api", "unknown") for a in articles)
+                status[cid] = {
+                    "fetched": len(articles),
+                    "fetched_newsapi": counts.get("newsapi", 0),
+                    "fetched_rss": counts.get("google_rss", 0),
+                    "processed": len(processed),
+                    "error": None,
+                }
             except Exception as e:
-                status[cid] = {"fetched": 0, "processed": 0, "error": str(e)}
+                status[cid] = {"fetched": 0, "fetched_newsapi": 0, "fetched_rss": 0, "processed": 0, "error": str(e)}
 
         now = datetime.now()
         cache_data["last_refresh"] = f"{now.day} {now.strftime('%B %Y, %I:%M %p')}"
@@ -188,8 +196,11 @@ def refresh_client(client_id):
 
         cache_data = load_cache()
         cache_data["cache"][client_id] = processed
+        counts = Counter(a.get("_source_api", "unknown") for a in articles)
         cache_data.setdefault("status", {})[client_id] = {
             "fetched": len(articles),
+            "fetched_newsapi": counts.get("newsapi", 0),
+            "fetched_rss": counts.get("google_rss", 0),
             "processed": len(processed),
             "error": None,
         }

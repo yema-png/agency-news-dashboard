@@ -537,7 +537,9 @@
       "context": "Wild Tech helps manufacturers and enterprises modernise their technology stacks across Australia and Singapore. Their flagship offering is Microsoft Dynamics 365 implementation and integration (ERP and CRM), with a focus on manufacturers undergoing digital transformation. Key client work includes Metro Department Store Singapore (Microsoft Dynamics 365). In 2025 they made four C-suite appointments including a new CRO (Dom), alongside existing leaders Sheryl, Phil, and Tania — signalling growth and a push into new markets. News about ERP adoption, Microsoft Dynamics 365 updates, digital transformation in manufacturing, cloud migration, Industry 4.0, and the Singapore technology market is directly relevant. Legacy IT modernisation is a key sales conversation topic in their target market.",
       "scope": "australia_global",
       "color": "#0ea5e9",
-      "domain": "wildtech.com.au",
+      "domain": "wild-tech.com",
+      "logo": "https://wild-tech.com/wp-content/uploads/2023/08/Wild_tech_logo.png",
+      "days_back": 30,
       "initials": "WT",
       "keywords": [
         "Microsoft Dynamics 365",
