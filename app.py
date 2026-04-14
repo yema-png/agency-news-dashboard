@@ -17,6 +17,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+print("NEWS_API_KEY:", os.getenv("NEWS_API_KEY"))
+print("ANTHROPIC_API_KEY:", os.getenv("ANTHROPIC_API_KEY"))
+
 app = Flask(__name__)
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "news_cache.json")
 
