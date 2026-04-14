@@ -36,6 +36,15 @@
         Overview
       </a>
 
+      <a href="{{ url_for('about') }}"
+         class="nav-link {% if request.endpoint == 'about' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="10" cy="10" r="7"/>
+          <path d="M10 9v5M10 7v.5" stroke-linecap="round"/>
+        </svg>
+        About &amp; Roadmap
+      </a>
+
       <div class="nav-group-label" style="margin-top:1rem">Clients</div>
       {% for client in clients %}
       <a href="{{ url_for('client_page', client_id=client.id) }}"

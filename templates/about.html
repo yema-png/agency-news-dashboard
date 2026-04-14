@@ -1,0 +1,274 @@
+{% extends 'base.html' %}
+{% block title %}About & Roadmap — AndIron Group News Dashboard{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <div class="page-eyebrow">Internal documentation</div>
+    <h1 class="page-title">About &amp; Roadmap</h1>
+  </div>
+</div>
+
+<div class="about-layout">
+
+  <!-- ── Section 1: What this is ── -->
+  <section class="about-section">
+    <div class="about-section-label">01</div>
+    <div class="about-section-body">
+      <h2 class="about-heading">What This Is</h2>
+      <p class="about-intro">
+        This is AndIron Group's internal weekly news intelligence dashboard. It automatically monitors
+        the news landscape for each client and surfaces the most relevant stories, trends, and talking
+        points ahead of WIP meetings — saving the team hours of manual monitoring every week.
+      </p>
+      <p class="about-text">
+        Rather than searching Google News manually or relying on ad-hoc media alerts, this dashboard
+        pulls from over 150,000 publications, scores every article for relevance using Claude AI,
+        and presents the results in a format ready to use in client conversations.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Section 2: How it works ── -->
+  <section class="about-section">
+    <div class="about-section-label">02</div>
+    <div class="about-section-body">
+      <h2 class="about-heading">How It Works Right Now</h2>
+      <div class="how-grid">
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <circle cx="10" cy="10" r="7"/><path d="M10 6v4l3 3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">News Source</div>
+            <div class="how-value">NewsAPI — 150,000+ global and Australian publications indexed in real time</div>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <path d="M4 10h12M14 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">Refresh Cadence</div>
+            <div class="how-value">Manual — click <strong>Refresh All</strong> in the sidebar or the per-client refresh button on each client page</div>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <path d="M10 3C6.134 3 3 6.134 3 10s3.134 7 7 7 7-3.134 7-7" stroke-linecap="round"/>
+              <path d="M13 3l4 4-4 4M17 7h-5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">AI Processing</div>
+            <div class="how-value">Claude AI reads each article, scores it for relevance (0–10), writes a one-line summary, and generates a <em>meeting angle</em> — a ready-to-use talking point for client WIPs</div>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <rect x="3" y="5" width="14" height="11" rx="2"/>
+              <path d="M7 5V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">Caching</div>
+            <div class="how-value">Results are cached locally so the dashboard loads instantly. Only a manual refresh hits the APIs — no unnecessary spend between meetings</div>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <path d="M4 6h12M4 10h8M4 14h5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">Client Config</div>
+            <div class="how-value">Each client has a profile in <code>config.json</code> with keywords, topics, scope (AU or global), and plain-English context about their business — this is what tells Claude what's relevant</div>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="18" height="18">
+              <circle cx="7" cy="8" r="3"/><circle cx="13" cy="8" r="3"/>
+              <path d="M1 17c0-3 2.686-5 6-5M13 12c3.314 0 6 2 6 5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="how-label">Current Clients</div>
+            <div class="how-value">
+              {{ clients | length }} clients configured across cybersecurity, clean energy, AI/smart cities,
+              business advisory, accounting, renewable maintenance, embedded tech, digital transformation,
+              and incorporation advisory
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section 3: Relevance scoring ── -->
+  <section class="about-section">
+    <div class="about-section-label">03</div>
+    <div class="about-section-body">
+      <h2 class="about-heading">How Relevance Scoring Works</h2>
+      <p class="about-text">
+        Every article is scored by Claude on a scale of 0–10 before it appears in the dashboard.
+        Articles below 5 are filtered out entirely and never shown.
+      </p>
+      <div class="score-bands">
+        <div class="score-band">
+          <div class="score-band-range" style="color:#16a34a;background:#f0fdf4;border-color:#bbf7d0">8 – 10</div>
+          <div class="score-band-desc">
+            <strong>High relevance.</strong> Directly mentions the client, their product, their named technology,
+            or a market event that immediately affects them. Prime candidate for WIP discussion or proactive media pitch.
+          </div>
+        </div>
+        <div class="score-band">
+          <div class="score-band-range" style="color:#d97706;background:#fffbeb;border-color:#fde68a">5 – 7</div>
+          <div class="score-band-desc">
+            <strong>Industry relevant.</strong> Relevant to the client's sector, a topic they track, or a trend
+            they have a stake in — even if the client isn't named. Good for background briefing and messaging context.
+          </div>
+        </div>
+        <div class="score-band">
+          <div class="score-band-range" style="color:#9ca3af;background:#f9fafb;border-color:#e5e7eb">0 – 4</div>
+          <div class="score-band-desc">
+            <strong>Filtered out.</strong> Not relevant enough to surface. Claude drops these before they reach the dashboard.
+          </div>
+        </div>
+      </div>
+      <p class="about-text" style="margin-top:1rem">
+        Each client also has a <strong>relevance context</strong> field in their config — plain-English guidance
+        that tells Claude how to calibrate scoring for that specific client. For example, Sunshine Hydro's context
+        instructs Claude to score any Queensland energy transition story highly, even if Sunshine Hydro isn't named directly.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Section 4: Roadmap ── -->
+  <section class="about-section">
+    <div class="about-section-label">04</div>
+    <div class="about-section-body">
+      <h2 class="about-heading">Planned Improvements</h2>
+      <div class="roadmap-list">
+
+        <div class="roadmap-item">
+          <span class="roadmap-badge done">Done</span>
+          <span class="roadmap-text">Basic news dashboard with initial client set</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge done">Done</span>
+          <span class="roadmap-text">AI relevance scoring, one-line summaries, and WIP meeting angles</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge done">Done</span>
+          <span class="roadmap-text">Per-client config with keywords, topics, scope, and context</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge inprogress">In Progress</span>
+          <span class="roadmap-text">Expanding to all 16 clients</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Replace NewsAPI with Google News RSS + Serper API for richer, less restricted search results</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Add LinkedIn company page and founder post monitoring</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Scheduled auto-refresh every Monday morning — no manual trigger needed</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Export to PDF or PowerPoint for client meeting packs</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Email digest — weekly summary delivered to the team inbox automatically</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Slack integration — post top stories to relevant client channels automatically</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">Add remaining 6 clients: GoGet, Enosi, Allegro, Orivium, Vection, Neutralis</span>
+        </div>
+        <div class="roadmap-item">
+          <span class="roadmap-badge planned">Planned</span>
+          <span class="roadmap-text">White-label version that selected clients can access themselves</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section 5: Updating config ── -->
+  <section class="about-section">
+    <div class="about-section-label">05</div>
+    <div class="about-section-body">
+      <h2 class="about-heading">How to Update Client Config</h2>
+      <p class="about-text">
+        Everything about how a client is tracked — their keywords, topics, scope, and context — lives
+        in a single file: <code>config.json</code>. You never need to touch any code directly.
+      </p>
+      <div class="config-steps">
+        <div class="config-step">
+          <div class="config-step-num">1</div>
+          <div class="config-step-body">
+            <strong>Open Claude Code</strong> in the terminal from the project folder
+            (<code>agency-news-dashboard</code>).
+          </div>
+        </div>
+        <div class="config-step">
+          <div class="config-step-num">2</div>
+          <div class="config-step-body">
+            <strong>Describe the change in plain English.</strong> For example:
+            <em>"Add 'carbon credits' and 'emissions trading' to Sunshine Hydro's keywords"</em>
+            or <em>"Update Discovery Consulting's description — they now also serve healthcare clients."</em>
+          </div>
+        </div>
+        <div class="config-step">
+          <div class="config-step-num">3</div>
+          <div class="config-step-body">
+            <strong>Claude Code updates <code>config.json</code></strong> directly. No restart needed —
+            the new config takes effect on the next refresh.
+          </div>
+        </div>
+        <div class="config-step">
+          <div class="config-step-num">4</div>
+          <div class="config-step-body">
+            <strong>Click Refresh</strong> for that client (or Refresh All) to pull news using the updated profile.
+          </div>
+        </div>
+      </div>
+      <div class="config-tip">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14" style="flex-shrink:0;margin-top:1px">
+          <circle cx="8" cy="8" r="6"/><path d="M8 6v4M8 5v.5" stroke-linecap="round"/>
+        </svg>
+        <span>
+          To add a completely new client, just tell Claude Code the client's name, what they do,
+          their industry, and any key topics to track. It will create the full config entry
+          including keywords, topics, scope, context, and relevance guidance.
+        </span>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /.about-layout -->
+{% endblock %}

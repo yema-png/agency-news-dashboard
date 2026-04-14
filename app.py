@@ -60,6 +60,16 @@ def current_week_label():
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
+@app.route("/about")
+def about():
+    config = load_config()
+    return render_template(
+        "about.html",
+        agency=config["agency"],
+        clients=config["clients"],
+    )
+
+
 @app.route("/")
 def overview():
     config = load_config()
@@ -133,7 +143,7 @@ def refresh_all():
         for client in config["clients"]:
             cid = client["id"]
             try:
-                articles = fetcher.fetch_articles(client, config)
+                articles = fetcher.fetch_with_fallback(client, config)
                 processed = processor.process_articles(articles, client) if articles else []
                 cache_data["cache"][cid] = processed
                 status[cid] = {"fetched": len(articles), "processed": len(processed), "error": None}
@@ -171,7 +181,7 @@ def refresh_client(client_id):
         fetcher = NewsFetcher(news_api_key)
         processor = AIProcessor(anthropic_api_key, config.get("ai_model", "claude-haiku-4-5-20251001"))
 
-        articles = fetcher.fetch_articles(client, config)
+        articles = fetcher.fetch_with_fallback(client, config)
         processed = processor.process_articles(articles, client) if articles else []
 
         cache_data = load_cache()
